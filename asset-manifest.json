@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/nolloV/Vollon.git/static/css/main.9bc91a89.css",
+    "main.js": "/nolloV/Vollon.git/static/js/main.3040d12f.js",
+    "static/js/453.1407b060.chunk.js": "/nolloV/Vollon.git/static/js/453.1407b060.chunk.js",
+    "index.html": "/nolloV/Vollon.git/index.html",
+    "main.9bc91a89.css.map": "/nolloV/Vollon.git/static/css/main.9bc91a89.css.map",
+    "main.3040d12f.js.map": "/nolloV/Vollon.git/static/js/main.3040d12f.js.map",
+    "453.1407b060.chunk.js.map": "/nolloV/Vollon.git/static/js/453.1407b060.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9bc91a89.css",
+    "static/js/main.3040d12f.js"
+  ]
+}

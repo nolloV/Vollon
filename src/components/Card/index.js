@@ -7,7 +7,7 @@ const Card = ({ project }) => (
       <div className="projects__card--pictures">
         <img
           className="projects__card--img"
-          src={project.image}
+          src={process.env.PUBLIC_URL + project.image}
           alt={project.title}
         />
       </div>

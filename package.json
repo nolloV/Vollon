@@ -1,8 +1,8 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
+  "homepage": "https://nolloV.github.io/Vollon/",
   "private": true,
-  "homepage": "https://github.com/nolloV/Vollon.git",
   "dependencies": {
     "@fortawesome/free-brands-svg-icons": "^6.5.1",
     "@fortawesome/react-fontawesome": "^0.2.0",
@@ -24,10 +24,10 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [

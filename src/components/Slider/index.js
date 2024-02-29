@@ -30,7 +30,7 @@ function Slider({ imagesSrc }) {
 
         <div className="slider__container--track">
           <img
-            src={imagesSrc[currentImageIndex]}
+            src={process.env.PUBLIC_URL + imagesSrc[currentImageIndex]}
             alt={`Slide ${currentImageIndex + 1}`} // Indique le numéro de slide en ajoutant "Slide+1" par rapport l'index en cours
             className="slider__container--image"
           />

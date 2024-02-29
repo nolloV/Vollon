@@ -1,17 +1,12 @@
 import React, { useEffect, useState } from "react";
 import "./skills.scss";
+import skillsData from "../../data/skills.json";
 
 function Skills() {
-  const [skillsData, setSkillsData] = useState([]);
+  const [skills, setSkills] = useState([]);
 
   useEffect(() => {
-    const fetchSkills = async () => {
-      const response = await fetch("/skills.json");
-      const data = await response.json();
-      setSkillsData(data.skills);
-    };
-
-    fetchSkills();
+    setSkills(skillsData.skills);
   }, []);
 
   return (
@@ -24,11 +19,11 @@ function Skills() {
         <span className="intro_container--subtitle">A propos</span>
       </h2>
       <ul className="skills__container--list">
-        {skillsData.map((skill, index) => (
+        {skills.map((skill, index) => (
           <li key={index} className="skills__container--card">
             <img
               className="skills__container--logo"
-              src={skill.logo}
+              src={process.env.PUBLIC_URL + skill.logo}
               alt={skill.skill}
             />
             {skill.skill}

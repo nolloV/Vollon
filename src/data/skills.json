@@ -3,47 +3,47 @@
     {
       "id": 1,
       "skill": "HTML",
-      "logo": "/html.svg"
+      "logo": "/images/html.svg"
     },
     {
       "id": 2,
       "skill": "CSS",
-      "logo": "/CSS.svg"
+      "logo": "/images/css.svg"
     },
     {
       "id": 3,
       "skill": "SASS",
-      "logo": "/SASS.svg"
+      "logo": "/images/sass.svg"
     },
     {
       "id": 4,
       "skill": "JavaScript",
-      "logo": "/javascript.svg"
+      "logo": "/images/javascript.svg"
     },
     {
       "id": 5,
       "skill": "React",
-      "logo": "/react.svg"
+      "logo": "/images/react.svg"
     },
     {
       "id": 6,
       "skill": "Redux",
-      "logo": "/redux.svg"
+      "logo": "/images/redux.svg"
     },
     {
       "id": 7,
       "skill": "NodeJS",
-      "logo": "/nodejs-icon.svg"
+      "logo": "/images/nodejs-icon.svg"
     },
     {
       "id": 8,
       "skill": "Github",
-      "logo": "/github.svg"
+      "logo": "/images/github.svg"
     },
     {
       "id": 9,
       "skill": "VSCode",
-      "logo": "/vscode.svg"
+      "logo": "/images/vscode.svg"
     }
   ]
 }

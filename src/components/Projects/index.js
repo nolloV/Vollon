@@ -3,6 +3,7 @@ import Card from "../Card";
 import FilterList from "../Filters";
 import Modal from "../Modal";
 import "./projects.scss";
+import projectsData from "../../data/projects.json";
 
 const Projects = () => {
   const [projects, setProjects] = useState([]);
@@ -11,12 +12,7 @@ const Projects = () => {
   const [isModalOpen, setIsModalOpen] = useState(false); // Etat pour contrôler l'ouverture/fermeture de la modal
 
   useEffect(() => {
-    const fetchData = async () => {
-      const response = await fetch("/projects.json");
-      const data = await response.json();
-      setProjects(data);
-    };
-    fetchData();
+    setProjects(projectsData);
   }, []);
 
   // Met à jour l'état filter

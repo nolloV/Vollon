@@ -1,6 +1,7 @@
 import "./modal.scss";
-import React, { useState, useEffect } from "react";
+import React from "react";
 import Slider from "../Slider";
+import skillsData from "../../data/skills.json";
 
 function Modal({
   title,
@@ -12,19 +13,8 @@ function Modal({
   githubLink,
   onClose,
 }) {
-  // Tableau vide pour recevoir les données json
-  const [skillData, setSkillData] = useState([]);
-
-  // Récupère les données depuis le json et va les stocker dans skillData
-  useEffect(() => {
-    const fetchSkills = async () => {
-      const response = await fetch("/skills.json");
-      const data = await response.json();
-      setSkillData(data.skills);
-    };
-
-    fetchSkills();
-  }, []);
+  // Assigner directement les données importées à skillData
+  const skillData = skillsData.skills;
 
   return (
     // Fermeture au clique en dehors de la modale
@@ -59,7 +49,11 @@ function Modal({
                   <li key={index}>
                     <img
                       className="skillslist__container--logo"
-                      src={skillInfo ? skillInfo.logo : undefined}
+                      src={
+                        skillInfo
+                          ? process.env.PUBLIC_URL + skillInfo.logo
+                          : undefined
+                      }
                       alt={skill}
                     />
                   </li>

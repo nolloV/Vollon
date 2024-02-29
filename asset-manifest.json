@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Vollon/static/css/main.9bc91a89.css",
-    "main.js": "/Vollon/static/js/main.652947d5.js",
+    "main.css": "/Vollon/static/css/main.5d562d8c.css",
+    "main.js": "/Vollon/static/js/main.da4064a6.js",
     "static/js/453.1407b060.chunk.js": "/Vollon/static/js/453.1407b060.chunk.js",
     "index.html": "/Vollon/index.html",
-    "main.9bc91a89.css.map": "/Vollon/static/css/main.9bc91a89.css.map",
-    "main.652947d5.js.map": "/Vollon/static/js/main.652947d5.js.map",
+    "main.5d562d8c.css.map": "/Vollon/static/css/main.5d562d8c.css.map",
+    "main.da4064a6.js.map": "/Vollon/static/js/main.da4064a6.js.map",
     "453.1407b060.chunk.js.map": "/Vollon/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9bc91a89.css",
-    "static/js/main.652947d5.js"
+    "static/css/main.5d562d8c.css",
+    "static/js/main.da4064a6.js"
   ]
 }

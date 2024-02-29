@@ -1,0 +1,27 @@
+.projects__container--filters {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  justify-content: center;
+  margin: 2rem 0;
+}
+@media (max-width: 768px) {
+  .projects__container--filters {
+    flex-wrap: wrap;
+    width: 90%;
+  }
+}
+.projects__container--filter {
+  border-radius: 0.5rem;
+  cursor: pointer;
+  background: #f5f5f5;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 1px;
+  padding: 8px 20px;
+  transition: all 0.4s ease-in-out 0s;
+}
+.projects__container--filter.selected {
+  background: rgba(0, 0, 0, 0.79);
+  color: #fff;
+}/*# sourceMappingURL=filterList.css.map */

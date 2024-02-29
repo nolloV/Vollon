@@ -1,0 +1,132 @@
+[
+  {
+    "title": "Sophie Buel",
+    "image": "assets/Portfolio-Sophie-Buel-1.webp",
+    "imagesSrc": [
+      "/assets/Portfolio-Sophie-Buel-1.webp",
+      "/assets/Portfolio-Sophie-Buel-2.webp",
+      "/assets/Portfolio-Sophie-Buel-3.webp",
+      "/assets/Portfolio-Sophie-Buel-4.webp"
+    ],
+    "hashtags": ["JavaScript", "DOM", "NodeJS", "Modal"],
+    "categories": ["HTML", "JavaScript"],
+    "skills": ["HTML", "JavaScript", "CSS", "Github", "VSCode"],
+    "description": "Lorem ipsum dolor sit amet. Et architecto inventore aut veritatis animi est aspernatur aspernatur et dolore eveniet. Vel neque eligendi et tenetur deserunt ad quaerat quod ut facilis magni non laborum corrupti.",
+    "mission": "Lorem ipsum dolor sit amet. Et architecto inventore aut veritatis animi est aspernatur aspernatur et dolore eveniet. Vel neque eligendi et tenetur deserunt ad quaerat quod ut facilis magni non laborum corrupti.",
+    "missionResume": ["Lorem", "ipsum"],
+    "githubLink": "https://github.com/nolloV/Sophie_Bluel.git"
+  },
+  {
+    "title": "Kasa",
+    "image": "assets/portfolio-kasa.webp",
+    "imagesSrc": [
+      "/assets/Portfolio-kasa.webp",
+      "/assets/Portfolio-kasa-2.webp",
+      "/assets/Portfolio-kasa-3.webp"
+    ],
+    "hashtags": ["JavaScript", "React", "Git", "NodeJS"],
+    "categories": ["React", "JavaScript"],
+    "skills": [
+      "HTML",
+      "JavaScript",
+      "React",
+      "CSS",
+      "SASS",
+      "Github",
+      "VSCode"
+    ],
+    "description": "Lorem ipsum dolor sit amet. Et architecto inventore aut veritatis animi est aspernatur aspernatur et dolore eveniet. Vel neque eligendi et tenetur deserunt ad quaerat quod ut facilis magni non laborum corrupti.",
+    "mission": "Lorem ipsum dolor sit amet. Et architecto inventore aut veritatis animi est aspernatur aspernatur et dolore eveniet. Vel neque eligendi et tenetur deserunt ad quaerat quod ut facilis magni non laborum corrupti.",
+    "missionResume": ["Lorem", "ipsum"],
+    "githubLink": "https://github.com/nolloV/Kasa"
+  },
+  {
+    "title": "ArgentBank",
+    "image": "assets/Portfolio-ArgentBank.webp",
+    "imagesSrc": [
+      "/assets/Portfolio-ArgentBank.webp",
+      "/assets/Portfolio-ArgentBank-2.webp",
+      "/assets/Portfolio-ArgentBank-3.webp"
+    ],
+    "hashtags": ["JavaScript", "React", "Redux", "Swagger"],
+    "categories": ["React", "JavaScript"],
+    "skills": [
+      "JavaScript",
+      "React",
+      "NodeJS",
+      "Redux",
+      "HTML",
+      "CSS",
+      "Github",
+      "VSCode"
+    ],
+    "description": "Lorem ipsum dolor sit amet. Et architecto inventore aut veritatis animi est aspernatur aspernatur et dolore eveniet. Vel neque eligendi et tenetur deserunt ad quaerat quod ut facilis magni non laborum corrupti.",
+    "mission": "Lorem ipsum dolor sit amet. Et architecto inventore aut veritatis animi est aspernatur aspernatur et dolore eveniet. Vel neque eligendi et tenetur deserunt ad quaerat quod ut facilis magni non laborum corrupti.",
+    "missionResume": ["Lorem", "ipsum"],
+    "githubLink": "https://github.com/nolloV/Sophie_Bluel.git"
+  },
+  {
+    "title": "Nina Carducci",
+    "image": "assets/Portfolio-Nina-Carducci-1.webp",
+    "imagesSrc": [
+      "/assets/Portfolio-Nina-Carducci-1.webp",
+      "/assets/Portfolio-Nina-Carducci-2.webp",
+      "/assets/Portfolio-Nina-Carducci-3.webp"
+    ],
+    "hashtags": ["SEO", "Métas", "Green Code"],
+    "categories": ["Debbug", "SEO"],
+    "skills": ["CSS", "HTML", "JavaScript", "Github", "VSCode"],
+    "description": "Lorem ipsum dolor sit amet. Et architecto inventore aut veritatis animi est aspernatur aspernatur et dolore eveniet. Vel neque eligendi et tenetur deserunt ad quaerat quod ut facilis magni non laborum corrupti.",
+    "mission": "Lorem ipsum dolor sit amet. Et architecto inventore aut veritatis animi est aspernatur aspernatur et dolore eveniet. Vel neque eligendi et tenetur deserunt ad quaerat quod ut facilis magni non laborum corrupti.",
+    "missionResume": ["Lorem", "ipsum"],
+    "githubLink": "https://github.com/nolloV/Nina_Carducci.git"
+  },
+  {
+    "title": "Booki",
+    "image": "assets/Portfolio-Booki.webp",
+    "imagesSrc": ["/assets/Portfolio-Booki.webp"],
+    "hashtags": ["HTML", "CSS", "Figma"],
+    "categories": ["HTML"],
+    "skills": ["HTML", "CSS", "VSCode"],
+    "description": "Lorem ipsum dolor sit amet. Et architecto inventore aut veritatis animi est aspernatur aspernatur et dolore eveniet. Vel neque eligendi et tenetur deserunt ad quaerat quod ut facilis magni non laborum corrupti.",
+    "mission": "Lorem ipsum dolor sit amet. Et architecto inventore aut veritatis animi est aspernatur aspernatur et dolore eveniet. Vel neque eligendi et tenetur deserunt ad quaerat quod ut facilis magni non laborum corrupti.",
+    "missionResume": ["Lorem", "ipsum"],
+    "githubLink": "https://github.com/nolloV/Sophie_Bluel.git"
+  },
+  {
+    "title": "Print It",
+    "image": "assets/Portfolio-Printit.webp",
+    "imagesSrc": ["/assets/Portfolio-Printit.webp"],
+    "hashtags": ["JavaScript", "HTML", "CSS"],
+    "categories": ["JavaScript"],
+    "skills": ["HTML", "JavaScript", "CSS", "Github", "VSCode"],
+    "description": "Lorem ipsum dolor sit amet. Et architecto inventore aut veritatis animi est aspernatur aspernatur et dolore eveniet. Vel neque eligendi et tenetur deserunt ad quaerat quod ut facilis magni non laborum corrupti.",
+    "mission": "Lorem ipsum dolor sit amet. Et architecto inventore aut veritatis animi est aspernatur aspernatur et dolore eveniet. Vel neque eligendi et tenetur deserunt ad quaerat quod ut facilis magni non laborum corrupti.",
+    "missionResume": ["Lorem", "ipsum"],
+    "githubLink": "https://github.com/nolloV/Printit.git"
+  },
+  {
+    "title": "OhMyFood",
+    "image": "assets/Portfolio-Ohmyfood.webp",
+    "imagesSrc": ["/assets/Portfolio-Ohmyfood.webp"],
+    "hashtags": ["HTML", "CSS", "Animation"],
+    "categories": ["HTML"],
+    "skills": ["SASS", "HTML", "CSS", "Github", "VSCode"],
+    "description": "Lorem ipsum dolor sit amet. Et architecto inventore aut veritatis animi est aspernatur aspernatur et dolore eveniet. Vel neque eligendi et tenetur deserunt ad quaerat quod ut facilis magni non laborum corrupti.",
+    "mission": "Lorem ipsum dolor sit amet. Et architecto inventore aut veritatis animi est aspernatur aspernatur et dolore eveniet. Vel neque eligendi et tenetur deserunt ad quaerat quod ut facilis magni non laborum corrupti.",
+    "missionResume": ["Lorem", "ipsum"],
+    "githubLink": "https://github.com/nolloV/ohmyfood.git"
+  },
+  {
+    "title": "724 Events",
+    "image": "assets/Portfolio-724.webp",
+    "imagesSrc": ["/assets/Portfolio-724.webp", "/assets/Portfolio-724-2.webp"],
+    "hashtags": ["JavaScript", "Debbug", "DevTools", "React"],
+    "categories": ["Debbug", "React", "JavaScript"],
+    "skills": ["HTML", "CSS", "JavaScript", "React", "Github", "VSCode"],
+    "description": "Lorem ipsum dolor sit amet. Et architecto inventore aut veritatis animi est aspernatur aspernatur et dolore eveniet. Vel neque eligendi et tenetur deserunt ad quaerat quod ut facilis magni non laborum corrupti.",
+    "mission": "Lorem ipsum dolor sit amet. Et architecto inventore aut veritatis animi est aspernatur aspernatur et dolore eveniet. Vel neque eligendi et tenetur deserunt ad quaerat quod ut facilis magni non laborum corrupti.",
+    "missionResume": ["Lorem", "ipsum"],
+    "githubLink": "https://github.com/nolloV/724events.git"
+  }
+]

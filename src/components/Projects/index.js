@@ -52,8 +52,11 @@ const Projects = () => {
       <FilterList handleFilter={handleFilter} />
       <ul className="projects__container--list">
         {filteredProjects.map((project, index) => (
-          <li key={index} onClick={() => handleProjectClick(project)}>
-            {" "}
+          <li
+            key={index}
+            onClick={() => handleProjectClick(project)}
+            className={`project-card project-card-${index}`}
+          >
             <Card project={project} />
           </li>
         ))}

@@ -1,16 +1,24 @@
-[
-  {
-    "title": "Sophie Buel",
-    "image": "/assets/Portfolio-Sophie-Buel-1.webp",
-    "imagesSrc": [
-      "/assets/Portfolio-Sophie-Buel-1.webp",
-      "/assets/Portfolio-Sophie-Buel-2.webp",
-      "/assets/Portfolio-Sophie-Buel-3.webp",
-      "/assets/Portfolio-Sophie-Buel-4.webp"
-    ],
-    "hashtags": ["JavaScript", "DOM", "NodeJS", "Modal"],
-    "categories": ["HTML", "JavaScript"],
-    "skills": ["HTML", "JavaScript", "CSS", "Github", "VSCode"],
+{
+  "developer": "Développeur Web",
+  "presentation": "Présentation",
+  "whoAmI": "Qui suis-je ?",
+  "paragraph1": "Salut, je suis Vollon, développeur front-end passionné. Diplômé d'OpenClassrooms, j'ai une solide expérience du développement en HTML/CSS ainsi que dans des projets avancés en JavaScript et React.",
+  "paragraph2": "Maîtrise des technologies : HTML, CSS, SASS, JavaScript, React, Redux, SEO. Je privilégie la simplicité et la lisibilité dans mon code.",
+  "paragraph3": "À la recherche de nouvelles opportunités pour contribuer à des projets excitants avec ma passion, mon dévouement et ma constante volonté d'apprendre.",
+  "skills": "Mes compétences",
+  "about": "A propos",
+  "realisation": "Mes réalisations",
+  "Tous": "Tous",
+  "contact": "Contactez-moi",
+  "project": "Vous avez un projet ? Discutons-en !",
+  "name": "Nom",
+  "address": "Adresse e-mail",
+  "message": "Votre message",
+  "Submit": "Envoyer",
+  "copyright": "Tous droits réservés.",
+  "switch": "Changer de langue",
+  "Lien vers Github": "Lien vers Github",
+  "Sophie Buel": {
     "description": "En renfort au sein de l'agence ArchiWebos, je participe au développement du site portfolio d'une architecte d'intérieur. Les éléments nécessaires, dont le design sur Figma, le code back-end, et un Kanban, sont fournis.",
     "mission": "Les missions majeures consistent à développer la page de présentation des travaux de l'architecte à partir du HTML existant, créer la page de connexion pour l'administrateur, et mettre en place une modale d'upload de médias. ",
     "missionResume": [
@@ -19,28 +27,9 @@
       "Récupération des données utilisateurs dans le JavaScript via des formulaires.",
       "Création de modale",
       "Gestion d'API"
-    ],
-    "githubLink": "https://github.com/nolloV/Sophie_Bluel.git"
+    ]
   },
-  {
-    "title": "Kasa",
-    "image": "/assets/Portfolio-kasa.webp",
-    "imagesSrc": [
-      "/assets/Portfolio-kasa.webp",
-      "/assets/Portfolio-kasa-2.webp",
-      "/assets/Portfolio-kasa-3.webp"
-    ],
-    "hashtags": ["JavaScript", "React", "Git", "NodeJS"],
-    "categories": ["React", "JavaScript"],
-    "skills": [
-      "HTML",
-      "JavaScript",
-      "React",
-      "CSS",
-      "SASS",
-      "Github",
-      "VSCode"
-    ],
+  "Kasa": {
     "description": "Kasa, une plateforme de location d'appartements entre particuliers, recrute un développeur front-end freelance pour sa refonte totale. Leader en France avec plus de 500 annonces quotidiennes, Kasa veut migrer vers une stack JavaScript avec NodeJS côté back-end et React côté front-end, abandonnant son ancien code ASP.NET de plus de 10 ans.",
     "mission": "En tant que développeur front-end freelance, ma mission consiste à initier le projet React pour la refonte du site Kasa, une plateforme de location d'appartements entre particuliers. Je suis chargé de développer l'intégralité de l'application, notamment les composants React et les routes React Router, en suivant les maquettes Figma fournies. Malgré l'absence temporaire du back-end, je dois assurer un code de qualité en utilisant un fichier JSON contenant les 20 dernières annonces de logements. Le respect des contraintes techniques et des coding guidelines de Kasa est impératif.",
     "missionResume": [
@@ -49,29 +38,9 @@
       "Mettre en œuvre des animations CSS.",
       "Développer une interface web en utilisant Sass.",
       "Initialiser une application avec Create React App."
-    ],
-    "githubLink": "https://github.com/nolloV/Kasa"
+    ]
   },
-  {
-    "title": "ArgentBank",
-    "image": "/assets/Portfolio-ArgentBank.webp",
-    "imagesSrc": [
-      "/assets/Portfolio-ArgentBank.webp",
-      "/assets/Portfolio-ArgentBank-2.webp",
-      "/assets/Portfolio-ArgentBank-3.webp"
-    ],
-    "hashtags": ["JavaScript", "React", "Redux", "Swagger"],
-    "categories": ["React", "JavaScript"],
-    "skills": [
-      "JavaScript",
-      "React",
-      "NodeJS",
-      "Redux",
-      "HTML",
-      "CSS",
-      "Github",
-      "VSCode"
-    ],
+  "ArgentBank": {
     "description": "En tant que développeur front-end fraîchement intégré à l'équipe d'Argent Bank, je collabore activement avec Mila, la cheffe de projet, pour concrétiser le tableau de bord des utilisateurs. Sous la direction du CTO, Avery Moreau, qui souligne l'importance des délais, notre objectif est de propulser Argent Bank en tant que nouvelle banque en ligne innovante.",
     "mission": "Ma mission consiste à initier la première phase du tableau de bord des utilisateurs d'Argent Bank, en mettant l'accent sur l'authentification des utilisateurs. Je vais créer une application web réactive avec React, utilisant Redux pour gérer l'état global. Le code initial, comprenant le HTML et le CSS statiques des pages d'accueil, de connexion, et de profil, m'a été fourni. Mon objectif est de permettre aux utilisateurs de naviguer sur le site, de se connecter, de se déconnecter, et d'accéder à des informations spécifiques post-connexion. Je veillerai particulièrement à l'optimisation des images et à la création de composants réutilisables, conformément aux bonnes pratiques du Green Code.",
     "missionResume": [
@@ -80,20 +49,10 @@
       "Mettre en œuvre des animations CSS.",
       "Développer une interface web en utilisant Sass.",
       "Initialiser une application avec Create React App."
-    ],
-    "githubLink": "https://github.com/nolloV/Sophie_Bluel.git"
+    ]
   },
-  {
-    "title": "Nina Carducci",
-    "image": "/assets/Portfolio-Nina-Carducci-1.webp",
-    "imagesSrc": [
-      "/assets/Portfolio-Nina-Carducci-1.webp",
-      "/assets/Portfolio-Nina-Carducci-2.webp",
-      "/assets/Portfolio-Nina-Carducci-3.webp"
-    ],
-    "hashtags": ["SEO", "Métas", "Green Code"],
-    "categories": ["Debbug", "SEO"],
-    "skills": ["CSS", "HTML", "JavaScript", "Github", "VSCode"],
+
+  "Nina Carducci": {
     "description": "Nina Carducci, photographe, a sollicité mes services de développeur freelance pour optimiser le référencement de son site ninacarducci.github.io.",
     "mission": "En tant que développeur freelance, ma mission consiste à optimiser le site web de Nina Carducci, une photographe, pour améliorer son référencement et ses performances en ligne. Pour atteindre cet objectif, je vais travailler sur plusieurs aspects du site, notamment en réduisant la taille des images pour accélérer le chargement, en restructurant le code pour garantir une accessibilité optimale, et en mettant en place un référencement local grâce à Schema.org. Je vais également ajouter des balises métas pour les réseaux sociaux et effectuer des ajustements liés à l'accessibilité. Enfin, je vais documenter toutes ces actions dans un rapport d'optimisation détaillé, qui inclura des captures d'écran des audits Lighthouse, Wave, et Rich Snippet",
     "missionResume": [
@@ -103,32 +62,18 @@
       "Configuration des Routes API",
       "Swagger Documentation",
       "Green Code"
-    ],
-    "githubLink": "https://github.com/nolloV/Nina_Carducci.git"
+    ]
   },
-  {
-    "title": "Booki",
-    "image": "/assets/Portfolio-Booki.webp",
-    "imagesSrc": ["/assets/Portfolio-Booki.webp"],
-    "hashtags": ["HTML", "CSS", "Figma"],
-    "categories": ["HTML"],
-    "skills": ["HTML", "CSS", "VSCode"],
+  "Booki": {
     "description": "Mon alternance se déroule au sein de la start-up Booki, où je débute en tant que développeur web. Mon objectif est de créer un site Internet permettant aux utilisateurs de trouver des hébergements et des activités dans la ville de leur choix.",
     "mission": "En tant que développeur web chez Booki, ma mission consiste à intégrer les maquettes du site en utilisant du code HTML et CSS. Je travaille en étroite collaboration avec la CTO, Sarah, et l'UI designer, Loïc. Les maquettes desktop, tablette et mobile du site sont finalisées, et je dois suivre les spécifications techniques fournies dans la note de synthèse. Je reçois également une structure de fichiers du site et une base de code initiale pour m'aider à démarrer.",
     "missionResume": [
       "Implémenter une interface responsive avec HTML et CSS.",
       "Installer un environnement de développement front-end.",
       "Intégrer du contenu conformément à une maquette avec HTML et CSS."
-    ],
-    "githubLink": "https://github.com/nolloV/Sophie_Bluel.git"
+    ]
   },
-  {
-    "title": "Print It",
-    "image": "/assets/Portfolio-Printit.webp",
-    "imagesSrc": ["/assets/Portfolio-Printit.webp"],
-    "hashtags": ["JavaScript", "HTML", "CSS"],
-    "categories": ["JavaScript"],
-    "skills": ["HTML", "JavaScript", "CSS", "Github", "VSCode"],
+  "Print It": {
     "description": "En tant que développeur junior, je collabore avec Print It, une imprimerie familiale depuis trois générations. Sous la direction de Lucien, le directeur, nous travaillons à moderniser le site.",
     "mission": "En tant que développeur front-end en freelance, je suis chargé de dynamiser le site web statique de l'imprimerie Print it en créant un carrousel interactif. Les étapes incluent l'ajout d'éléments statiques, l'interaction avec des flèches et des bullet points, ainsi que la mise en place d'un défilement infini.",
     "missionResume": [
@@ -136,16 +81,9 @@
       "Utilisation de Git et GitHub",
       "Modernisation du Site",
       "Création d'un Carrousel"
-    ],
-    "githubLink": "https://github.com/nolloV/Printit.git"
+    ]
   },
-  {
-    "title": "OhMyFood",
-    "image": "/assets/Portfolio-Ohmyfood.webp",
-    "imagesSrc": ["/assets/Portfolio-Ohmyfood.webp"],
-    "hashtags": ["HTML", "CSS", "Animation"],
-    "categories": ["HTML"],
-    "skills": ["SASS", "HTML", "CSS", "Github", "VSCode"],
+  "OhMyFood": {
     "description": "En tant que développeur junior chez Ohmyfood, une start-up gastronomique en expansion à Paris, ma mission est de créer un site mobile first répertoriant les menus de restaurants gastronomiques. Le site permet également aux clients de composer leur propre menu pour une expérience sans attente au restaurant. Avec l'appui de l'équipe commerciale, nous avons convaincu 4 restaurateurs d'utiliser la plateforme, fixant ainsi le nombre initial de menus à 4.",
     "mission": "Ma mission consiste à développer le site Ohmyfood en utilisant les maquettes mobile et desktop fournies par l'UX designer. Le site doit être mobile first, responsive, avec l'usage rigoureux de SASS et des animations élaborées. Les maquettes, le prototype du site via Figma, et les fichiers sources sont fournis.",
     "missionResume": [
@@ -153,23 +91,15 @@
       "Mise en œuvre d'animations CSS.",
       "Utilisation de SASS.",
       "Versionnage du projet avec Git et Github."
-    ],
-    "githubLink": "https://github.com/nolloV/ohmyfood.git"
+    ]
   },
-  {
-    "title": "724 Events",
-    "image": "/assets/Portfolio-724.webp",
-    "imagesSrc": ["/assets/Portfolio-724.webp", "/assets/Portfolio-724-2.webp"],
-    "hashtags": ["JavaScript", "Debbug", "DevTools", "React"],
-    "categories": ["Debbug", "React", "JavaScript"],
-    "skills": ["HTML", "CSS", "JavaScript", "React", "Github", "VSCode"],
+  "724 Events": {
     "description": "L'agence événementielle 724events, spécialisée dans l'organisation d'événements, recherche mes compétences en tant que développeur front-end freelance pour résoudre des problèmes sur son site vitrine en cours de refonte. Avec une orientation vers les événements d'envergure, l'agence vise à présenter une image moderne et dynamique à travers son site one-page. Ayant déjà entamé le processus d'intégration, l'agence a dû faire face à des obstacles imprévus avec le départ du premier développeur freelance.Afin de maintenir l'élan du projet, Jean-Baptiste, le directeur Marketing de l'agence, m'a contacté pour débugger le site et finaliser le cahier de recette qui garantira le bon fonctionnement de chaque fonctionnalité.",
     "mission": "    La mission de déboggage pour le site web de 724events consiste à résoudre les bugs identifiés dans le code existant, en se basant sur les indications fournies . Le cahier de recette commencé par le développeur précédent doit être finalisé avec des scénarios de tests exhaustifs. Le déboggage sera effectué à l'aide des Chrome DevTools, avec l'intégration de tests unitaires pour identifier et corriger les problèmes.",
     "missionResume": [
       "Déboggage avec Chrome DevTools",
       "Tests unitaires ",
       "Rédaction de cahier de recette"
-    ],
-    "githubLink": "https://github.com/nolloV/724events.git"
+    ]
   }
-]
+}

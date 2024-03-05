@@ -1,14 +1,16 @@
 import "./form.scss";
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 function Form() {
+  const { t } = useTranslation();
   return (
     <section className="form">
       <h2 id="form" className="intro_container--title">
         Contact
-        <span className="intro_container--subtitle">Contactez-moi</span>
+        <span className="intro_container--subtitle"> {t("contact")}</span>
       </h2>
-      <p>Vous avez un projet ? Discutons-en !</p>
+      <p>{t("project")}</p>
       <form action="#" method="post" className="form__container">
         <label className="hidden" htmlFor="name">
           Nom
@@ -18,7 +20,7 @@ function Form() {
           type="text"
           name="name"
           id="name"
-          placeholder="Nom"
+          placeholder={t("name")}
           required
         />
         <label className="hidden" htmlFor="email">
@@ -29,7 +31,7 @@ function Form() {
           type="email"
           name="email"
           id="email"
-          placeholder="Adresse e-mail"
+          placeholder={t("address")}
           required
         />
         <label className="hidden" htmlFor="message">
@@ -41,12 +43,12 @@ function Form() {
           id="message"
           cols="30"
           rows="10"
-          placeholder="Votre message"
+          placeholder={t("message")}
           required
         ></textarea>
         <input
           type="submit"
-          value="Envoyer"
+          value={t("Submit")}
           className="form__container--submit"
         />
       </form>

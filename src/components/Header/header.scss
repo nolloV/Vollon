@@ -9,15 +9,20 @@ header {
   align-items: center;
   justify-content: center;
   height: 2.9rem;
+
+  // Lorsque body a la classe dark, alors le selecteur parent va appliquer ceci
+  body.dark-theme & {
+    background: #333; // Change la couleur de fond pour le mode nuit
+  }
+
   .header__container {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    width: 80%;
-    @media (max-width: 768px) {
-      width: auto;
-    }
+    width: 100%;
+    padding: 0 2rem;
+
     &--name {
       display: flex;
       flex-direction: column;
@@ -26,22 +31,38 @@ header {
       a {
         text-decoration: none;
         color: #5b5963;
-      }
-      @media (max-width: 768px) {
-        flex-direction: row-reverse;
-        gap: 6px;
+
+        body.dark-theme & {
+          color: #fff; // Changer la couleur du texte pour le mode nuit
+        }
       }
     }
 
-    &-titles {
+    &--titles {
       gap: 1rem;
       display: flex;
+
       a {
         text-decoration: none;
         color: black;
+
+        body.dark-theme & {
+          color: #fff; // Changer la couleur du texte pour le mode nuit
+        }
       }
+
       @media (max-width: 768px) {
         display: none;
+      }
+    }
+    &--module {
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+      @media (max-width: 768px) {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
       }
     }
   }
@@ -69,6 +90,7 @@ header {
       z-index: -10;
     }
   }
+
   &__loader {
     border: 16px solid #f3f3f3;
     border-top: 16px solid #5b5963;
@@ -76,6 +98,11 @@ header {
     width: 120px;
     height: 120px;
     animation: spin 1s ease-in-out infinite;
+
+    body.dark-theme & {
+      border: 16px solid #555; // Changer la couleur de la bordure pour le mode nuit
+      border-top: 16px solid #fff; // Changer la couleur de la bordure supérieure pour le mode nuit
+    }
   }
 
   @keyframes spin {

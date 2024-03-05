@@ -4,8 +4,10 @@ import Form from "../../components/Form";
 import Intro from "../../components/Intro";
 import Skills from "../../components/Skills";
 import Projects from "../../components/Projects";
+import { useTranslation } from "react-i18next";
 
 function Home() {
+  const { t } = useTranslation();
   return (
     <main className="main__container">
       <Intro />
@@ -15,7 +17,7 @@ function Home() {
           id="projects"
           className="projects__container--title intro_container--title"
         >
-          Mes réalisations
+          {t("realisation")}
           <span className="intro_container--subtitle">Portfolio</span>
         </h2>
         <Projects />

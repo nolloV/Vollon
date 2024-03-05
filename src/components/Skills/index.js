@@ -1,8 +1,10 @@
 import React, { useEffect, useState } from "react";
 import "./skills.scss";
 import skillsData from "../../data/skills.json";
+import { useTranslation } from "react-i18next";
 
 function Skills() {
+  const { t } = useTranslation();
   const [skills, setSkills] = useState([]);
 
   useEffect(() => {
@@ -15,8 +17,8 @@ function Skills() {
         id="skills"
         className="skills__container--title intro_container--title"
       >
-        Mes compétences
-        <span className="intro_container--subtitle">A propos</span>
+        {t("skills")}
+        <span className="intro_container--subtitle">{t("about")}</span>
       </h2>
       <ul className="skills__container--list">
         {skills.map((skill, index) => (

@@ -4,21 +4,42 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+
+  // Lorsque l'élément <body> a la classe dark-theme, alors appliquer ceci à l'élément parent avec &
+  body.dark-theme & {
+    background: black; // Change la couleur de fond pour le mode nuit
+  }
 }
+
 .footer__container {
   display: flex;
   flex-direction: column;
   align-items: center;
+
   &--list {
     display: flex;
     gap: 1rem;
     font-size: 2rem;
     color: white;
+
+    body.dark-theme & {
+      color: #fff; // Change la couleur du texte pour le mode nuit
+    }
   }
+
   &--icon {
     color: white;
+
+    body.dark-theme & {
+      color: #fff;
+    }
   }
+
   &--copy {
     margin: 0 0 1rem 0;
+
+    body.dark-theme & {
+      color: #fff;
+    }
   }
 }

@@ -20,6 +20,8 @@
   .skills__container--list {
     flex-wrap: wrap;
     justify-content: center;
+    padding: 0 0.5rem 0 0.5rem;
+    margin: 0;
   }
 }
 .skills__container--logo {
@@ -62,6 +64,12 @@
 }
 .skills__container--card:nth-child(9) .skills__container--logo {
   animation-delay: 3.6s;
+}
+body.dark-theme .skills__container {
+  background: #333;
+}
+body.dark-theme .skills__container--title, body.dark-theme .skills__container--list, body.dark-theme .skills__container--card {
+  color: #fff;
 }
 
 @keyframes apparition {

@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 80%;
+  padding: 2rem;
 }
 .intro_container--section {
   display: flex;
@@ -33,6 +33,9 @@
   display: flex;
   justify-content: center;
 }
+body.dark-theme .intro_container--title {
+  color: white;
+}
 .intro_container--subtitle {
   font-size: 6rem;
   position: absolute;
@@ -43,6 +46,10 @@
   z-index: 0;
   opacity: 0.05;
   font-weight: 700;
+}
+body.dark-theme .intro_container--subtitle {
+  color: white;
+  opacity: 0.2;
 }
 @media (max-width: 768px) {
   .intro_container--subtitle {

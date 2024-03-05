@@ -5,6 +5,9 @@ footer {
   justify-content: center;
   align-items: center;
 }
+body.dark-theme footer {
+  background: black;
+}
 
 .footer__container {
   display: flex;
@@ -17,9 +20,18 @@ footer {
   font-size: 2rem;
   color: white;
 }
+body.dark-theme .footer__container--list {
+  color: #fff;
+}
 .footer__container--icon {
   color: white;
 }
+body.dark-theme .footer__container--icon {
+  color: #fff;
+}
 .footer__container--copy {
   margin: 0 0 1rem 0;
+}
+body.dark-theme .footer__container--copy {
+  color: #fff;
 }/*# sourceMappingURL=footer.css.map */

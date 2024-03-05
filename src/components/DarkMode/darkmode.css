@@ -1,0 +1,29 @@
+.light-theme {
+  background-color: white;
+  color: black;
+}
+
+.dark-theme {
+  background-color: black;
+  color: white;
+}
+
+.dark-mode-toggle button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+body.dark-theme .dark-mode-toggle button {
+  color: white;
+}
+.dark-mode-toggle button:hover {
+  opacity: 0.7;
+}
+.dark-mode-toggle .dark-theme {
+  color: white;
+  background-color: transparent;
+}
+.dark-mode-toggle .light-theme {
+  color: black;
+  background-color: transparent;
+}/*# sourceMappingURL=darkmode.css.map */

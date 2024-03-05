@@ -49,6 +49,9 @@
       &--list {
         padding-left: 1rem;
         list-style-type: initial;
+        body.dark-theme & {
+          color: #fff; // Change la couleur du texte pour le mode nuit
+        }
       }
 
       &--logo {
@@ -79,6 +82,13 @@
       margin: 0.5rem;
       text-decoration: none;
       color: black;
+    }
+    body.dark-theme & {
+      background: #333; // Change la couleur de fond pour le mode nuit
+
+      &--list {
+        color: #fff; // Change la couleur du texte pour le mode nuit
+      }
     }
   }
 }

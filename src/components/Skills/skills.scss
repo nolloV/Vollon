@@ -85,6 +85,16 @@
       }
     }
   }
+
+  body.dark-theme & {
+    background: #333; // Change la couleur de fond pour le mode nuit
+
+    &--title,
+    &--list,
+    &--card {
+      color: #fff; // Change la couleur du texte pour le mode nuit
+    }
+  }
 }
 
 @keyframes apparition {

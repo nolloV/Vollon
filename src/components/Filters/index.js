@@ -1,8 +1,10 @@
 import "./filterList.scss";
 import React, { useState, useEffect } from "react";
 import filterData from "../../data/projects.json";
+import { useTranslation } from "react-i18next";
 
 const FilterList = ({ handleFilter }) => {
+  const { t } = useTranslation();
   const [filters, setFilters] = useState([]); // Tableau des filtres
   const [selectedFilter, setSelectedFilter] = useState("Tous"); // Choisi le filtre sélectionné
 
@@ -43,7 +45,7 @@ const FilterList = ({ handleFilter }) => {
           }`}
           onClick={() => handleClick(filter)}
         >
-          {filter}
+          {t(filter)}
         </li>
       ))}
     </ul>

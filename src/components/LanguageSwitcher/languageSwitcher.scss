@@ -1,0 +1,18 @@
+.switch_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  &--title {
+    @media (max-width: 768px) {
+      display: none;
+    }
+  }
+  &--button {
+    font-weight: 600;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    @media (max-width: 768px) {
+      font-size: 12px;
+    }
+  }
+}

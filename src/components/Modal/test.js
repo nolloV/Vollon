@@ -4,13 +4,19 @@ import Slider from "../Slider";
 import skillsData from "../../data/skills.json";
 import { useTranslation } from "react-i18next";
 
-function Modal({ title, imagesSrc, skills, githubLink, onClose }) {
+function Modal({
+  title,
+  imagesSrc,
+  description,
+  mission,
+  missionResume,
+  skills,
+  githubLink,
+  onClose,
+}) {
   const { t } = useTranslation();
   // Assigner directement les données importées à skillData
   const skillData = skillsData.skills;
-
-  // Obtenir toutes les traductions pour ce projet
-  const translations = t(title, { returnObjects: true });
 
   return (
     // Fermeture au clique en dehors de la modale
@@ -23,17 +29,15 @@ function Modal({ title, imagesSrc, skills, githubLink, onClose }) {
         </button>
         <h2>{title}</h2>
         <Slider imagesSrc={imagesSrc} />
-        <div className="modal__container--description">
-          {translations.description}
-        </div>
+        <div className="modal__container--description">{t(description)}</div>
         <h3>{t("Mission")}</h3>
         <div className="modal__container--description">
           <div>
-            <p>{translations.mission}</p>
+            <p>{t(mission)}</p>
             <ul className="modal__container--description--list">
               {/* Prend la props de Modal missionResume en map pour créer la liste*/}
-              {translations.missionResume.map((missionResume, index) => (
-                <li key={index}>{missionResume}</li>
+              {missionResume.map((missionResume, index) => (
+                <li key={index}>{t(missionResume)}</li>
               ))}
             </ul>
           </div>

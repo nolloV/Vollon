@@ -10,17 +10,16 @@ header {
   justify-content: center;
   height: 2.9rem;
 }
+body.dark-theme header {
+  background: #333;
+}
 header .header__container {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  width: 80%;
-}
-@media (max-width: 768px) {
-  header .header__container {
-    width: auto;
-  }
+  width: 100%;
+  padding: 0 2rem;
 }
 header .header__container--name {
   display: flex;
@@ -31,23 +30,35 @@ header .header__container--name a {
   text-decoration: none;
   color: #5b5963;
 }
-@media (max-width: 768px) {
-  header .header__container--name {
-    flex-direction: row-reverse;
-    gap: 6px;
-  }
+body.dark-theme header .header__container--name a {
+  color: #fff;
 }
-header .header__container-titles {
+header .header__container--titles {
   gap: 1rem;
   display: flex;
 }
-header .header__container-titles a {
+header .header__container--titles a {
   text-decoration: none;
   color: black;
 }
+body.dark-theme header .header__container--titles a {
+  color: #fff;
+}
 @media (max-width: 768px) {
-  header .header__container-titles {
+  header .header__container--titles {
     display: none;
+  }
+}
+header .header__container--module {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+@media (max-width: 768px) {
+  header .header__container--module {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
   }
 }
 
@@ -80,6 +91,10 @@ header .header__container-titles a {
   width: 120px;
   height: 120px;
   animation: spin 1s ease-in-out infinite;
+}
+body.dark-theme .loader-container__loader {
+  border: 16px solid #555;
+  border-top: 16px solid #fff;
 }
 @keyframes spin {
   0% {

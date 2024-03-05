@@ -27,6 +27,11 @@
     width: 100%;
     display: flex;
     justify-content: center;
+    // Changement de couleur lors du passage en DarkMode
+    // lorsque body a la classe dark-thème, alors ceci sera appliqué au selecteur parent &
+    body.dark-theme & {
+      color: white;
+    }
   }
   &--subtitle {
     font-size: 6rem;
@@ -38,6 +43,11 @@
     z-index: 0;
     opacity: 0.05;
     font-weight: 700;
+    // Changement de couleur et d'opcacité lors du passage en DarkMode
+    body.dark-theme & {
+      color: white;
+      opacity: 0.2;
+    }
     @media (max-width: 768px) {
       font-size: 3.5rem;
       top: -5px;

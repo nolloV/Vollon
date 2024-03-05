@@ -1,0 +1,105 @@
+{
+  "developer": "Web developer",
+  "presentation": "Presentation",
+  "whoAmI": "Who I am ?",
+  "paragraph1": "Hi, I'm Vollon, a passionate front-end developer. A graduate from OpenClassrooms, I have a strong background in HTML/CSS development as well as experience in advanced projects involving JavaScript and React.",
+  "paragraph2": "Proficiency in technologies: HTML, CSS, SASS, JavaScript, React, Redux, SEO. I prioritize simplicity and readability in my code.",
+  "paragraph3": "Seeking new opportunities to contribute to exciting projects with my passion, dedication, and continuous eagerness to learn.",
+  "skills": "My skills",
+  "about": "About",
+  "realisation": "My achievements",
+  "Tous": "All",
+  "contact": "Contact-me",
+  "project": "You have a project ? Let's discuss it!",
+  "name": "Name",
+  "address": "E-mail address",
+  "message": "Your message",
+  "Submit": "Submit",
+  "copyright": "All rights reserved.",
+  "switch": "Change language",
+  "Lien vers Github": "Link to Github",
+  "Sophie Buel": {
+    "description": "In support within the ArchiWebos agency, I participate in the development of the portfolio site of an interior architect. The necessary elements, including the design on Figma, the back-end code, and a Kanban, are provided.",
+    "mission": "The major missions consist of developing the presentation page of the architect's work from the existing HTML, creating the login page for the administrator, and setting up a media upload modal.",
+    "missionResume": [
+      "Management of user events with JavaScript",
+      "Manipulation of DOM elements with JavaScript.",
+      "Retrieving user data in JavaScript via forms.",
+      "Creation of modal",
+      "API management"
+    ]
+  },
+  "Kasa": {
+    "description": "Kasa, a platform for renting apartments between individuals, is recruiting a freelance front-end developer for its total overhaul. Leader in France with more than 500 daily ads, Kasa wants to migrate to a JavaScript stack with NodeJS on the back-end and React on the front-end, abandoning its old ASP.NET code of more than 10 years.",
+    "mission": "As a freelance front-end developer, my mission is to initiate the React project for the overhaul of the Kasa site, a platform for renting apartments between individuals. I am in charge of developing the entire application, including React components and React Router routes, following the provided Figma mockups. Despite the temporary absence of the back-end, I must ensure quality code using a JSON file containing the last 20 housing ads. Compliance with Kasa's technical constraints and coding guidelines is imperative.",
+    "missionResume": [
+      "Configure navigation between pages with React Router.",
+      "Develop interface elements using React components.",
+      "Implement CSS animations.",
+      "Develop a web interface using Sass.",
+      "Initialize an application with Create React App."
+    ]
+  },
+  "ArgentBank": {
+    "description": "As a newly integrated front-end developer in the Argent Bank team, I actively collaborate with Mila, the project manager, to realize the user dashboard. Under the direction of CTO, Avery Moreau, who emphasizes the importance of deadlines, our goal is to propel Argent Bank as a new innovative online bank.",
+    "mission": "My mission is to initiate the first phase of the Argent Bank user dashboard, focusing on user authentication. I will create a responsive web application with React, using Redux to manage the global state. The initial code, including the static HTML and CSS of the home, login, and profile pages, was provided to me. My goal is to allow users to navigate the site, log in, log out, and access specific post-login information. I will pay particular attention to image optimization and the creation of reusable components, in accordance with Green Code best practices.",
+    "missionResume": [
+      "Configure navigation between pages with React Router.",
+      "Develop interface elements using React components.",
+      "Implement CSS animations.",
+      "Develop a web interface using Sass.",
+      "Initialize an application with Create React App."
+    ]
+  },
+  "Nina Carducci": {
+    "description": "Nina Carducci, a photographer, enlisted my services as a freelance developer to optimize the SEO of her site ninacarducci.github.io.",
+    "mission": "As a freelance developer, my mission is to optimize Nina Carducci's website, a photographer, to enhance its SEO and online performance. To achieve this goal, I will work on several aspects of the site, including reducing the image size for faster loading, restructuring the code to ensure optimal accessibility, and implementing local SEO through Schema.org. I will also add meta tags for social media and make accessibility-related adjustments. Finally, I will document all these actions in a detailed optimization report, including screenshots from Lighthouse, Wave, and Rich Snippet audits.",
+    "missionResume": [
+      "React Development",
+      "State Management with Redux",
+      "API Calls",
+      "API Routes Configuration",
+      "Swagger Documentation",
+      "Green Code"
+    ]
+  },
+  "Booki": {
+    "description": "My internship takes place at the start-up Booki, where I begin as a web developer. My goal is to create a website allowing users to find accommodations and activities in the city of their choice.",
+    "mission": "As a web developer at Booki, my mission is to integrate the website's mockups using HTML and CSS. I work closely with the CTO, Sarah, and the UI designer, Loïc. The desktop, tablet, and mobile mockups of the site are finalized, and I must follow the technical specifications provided in the summary note. I also receive a file structure for the site and an initial codebase to help me get started.",
+    "missionResume": [
+      "Implement a responsive interface with HTML and CSS.",
+      "Set up a front-end development environment.",
+      "Integrate content according to a mockup with HTML and CSS."
+    ]
+  },
+
+  "Print It": {
+    "description": "As a junior developer, I collaborate with Print It, a family-owned printing company for three generations. Under the guidance of Lucien, the director, we are working on modernizing the website.",
+    "mission": "As a freelance front-end developer, I am tasked with revitalizing the static website of the Print It printing house by creating an interactive carousel. The steps include adding static elements, interacting with arrows and bullet points, as well as implementing infinite scrolling.",
+    "missionResume": [
+      "JavaScript programming",
+      "Use of Git and GitHub",
+      "Website Modernization",
+      "Carousel Creation"
+    ]
+  },
+  "OhMyFood": {
+    "description": "As a junior developer at Ohmyfood, an expanding gastronomic startup in Paris, my mission is to create a mobile-first website listing menus from gourmet restaurants. The site also allows customers to compose their own menu for a wait-free dining experience. With the support of the sales team, we convinced 4 restaurateurs to use the platform, setting the initial number of menus to 4.",
+    "mission": "My mission is to develop the Ohmyfood website using the mobile and desktop mockups provided by the UX designer. The site must be mobile-first, responsive, with the rigorous use of SASS and elaborate animations. Mockups, the site prototype via Figma, and source files are provided.",
+    "missionResume": [
+      "Integration of mobile-first mockups.",
+      "Implementation of CSS animations.",
+      "Use of SASS.",
+      "Project versioning with Git and Github."
+    ]
+  },
+  "724 Events": {
+    "description": "The event agency 724events, specialized in event organization, is seeking my skills as a freelance front-end developer to address issues on its ongoing redesigned showcase website. With a focus on large-scale events, the agency aims to present a modern and dynamic image through its one-page site. Having already started the integration process, the agency faced unforeseen obstacles with the departure of the initial freelance developer. To maintain the project's momentum, Jean-Baptiste, the Marketing Director of the agency, contacted me to debug the site and finalize the recipe book that will ensure the proper functioning of each feature.",
+    "mission": "The debugging mission for the 724events website involves resolving identified bugs in the existing code, based on provided indications. The recipe book started by the previous developer must be completed with comprehensive test scenarios. Debugging will be performed using Chrome DevTools, with the integration of unit tests to identify and fix issues.",
+    "missionResume": [
+      "Debugging with Chrome DevTools",
+      "Unit testing",
+      "Writing recipe book"
+    ]
+  }
+}

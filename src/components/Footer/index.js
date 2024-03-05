@@ -3,8 +3,10 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
+import { useTranslation } from "react-i18next";
 
 function Footer() {
+  const { t } = useTranslation();
   return (
     <footer>
       <div className="footer__container">
@@ -27,7 +29,7 @@ function Footer() {
           </li>
         </ul>
         <p className="footer__container--copy">
-          © 2024 Vollon HU, Tous droits réservés.
+          © 2024 Vollon HU, {t("copyright")}
         </p>
       </div>
     </footer>

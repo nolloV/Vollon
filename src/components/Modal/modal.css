@@ -52,8 +52,10 @@
   }
 }
 .modal__container--description--list {
-  padding-left: 1rem;
+  padding-left: 2rem;
   list-style-type: initial;
+  color: black;
+  font-weight: 500;
 }
 body.dark-theme .modal__container--description--list {
   color: #fff;

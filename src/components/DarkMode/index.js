@@ -16,7 +16,7 @@ const DarkModeToggle = () => {
     localStorage.setItem("darkMode", !darkMode);
   };
 
-  // Appliquer le mode sombre au corps du document avec des classes CSS dès que darkMode change
+  // Appliquer le mode sombre au corps du document avec des classes CSS selon l'état de darkMode
   useEffect(() => {
     if (darkMode) {
       document.body.classList.add("dark-theme");

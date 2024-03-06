@@ -19,7 +19,8 @@ const FilterList = ({ handleFilter }) => {
         categories.push(category);
       }
     }
-    // Converti categories en Set pour supprimer les doublons puis array va convertir Set en un nouveau tableau uniqueCategories
+    // Créer un nouvel objet Set depuis le tableau categories pour supprimer les doublons
+    // Array.from va convertir Set en un nouveau tableau uniqueCategories
     let uniqueCategories = Array.from(new Set(categories));
 
     // Ajouter "Tous" au début de la liste via unshift

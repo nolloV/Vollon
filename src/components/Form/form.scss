@@ -6,7 +6,7 @@
   align-items: center;
   background: #f5f5f5;
 
-  // sélectionne tous les éléments avec la classe .form qui sont à l'intérieur d'un élément <body> lorsqu'il a la classe dark-theme".
+  // sélectionne l'éléments avec la classe .form qui est à l'intérieur d'un élément <body> lorsqu'il a la classe dark-theme".
   body.dark-theme & {
     background: #333; // Change la couleur de fond pour le mode nuit
 

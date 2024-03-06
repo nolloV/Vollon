@@ -5,7 +5,7 @@ footer {
   justify-content: center;
   align-items: center;
 
-  // Lorsque l'élément <body> a la classe dark-theme, alors appliquer ceci à l'élément parent avec &
+  // Lorsque l'élément <body> a la classe dark-theme, alors appliquer ceci à l'élément footer
   body.dark-theme & {
     background: black; // Change la couleur de fond pour le mode nuit
   }

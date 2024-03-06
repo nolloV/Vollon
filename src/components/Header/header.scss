@@ -10,7 +10,7 @@ header {
   justify-content: center;
   height: 2.9rem;
 
-  // Lorsque body a la classe dark, alors le selecteur parent va appliquer ceci
+  // Lorsque body a la classe dark, alors le selecteur header va appliquer ceci
   body.dark-theme & {
     background: #333; // Change la couleur de fond pour le mode nuit
   }

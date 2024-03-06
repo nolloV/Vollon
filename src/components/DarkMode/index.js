@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./darkmode.scss";
 
 const DarkModeToggle = () => {
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(false); // Etat local défini à false
 
   // Lire l'état du mode sombre du stockage local au montage
   useEffect(() => {
@@ -10,13 +10,13 @@ const DarkModeToggle = () => {
     setDarkMode(isDark);
   }, []);
 
-  // Basculer le mode sombre, mettre à jour l'état et le stockage local
+  // Basculer le mode sombre, mettre à jour l'état et le stockage local avec "!"
   const toggleDarkMode = () => {
     setDarkMode(!darkMode);
     localStorage.setItem("darkMode", !darkMode);
   };
 
-  // Appliquer le mode sombre au corps du document
+  // Appliquer le mode sombre au corps du document avec des classes CSS dès que darkMode change
   useEffect(() => {
     if (darkMode) {
       document.body.classList.add("dark-theme");

@@ -9,8 +9,10 @@ function Modal({ title, imagesSrc, skills, githubLink, onClose }) {
   // Assigner directement les données importées à skillData
   const skillData = skillsData.skills;
 
-  // Obtenir toutes les traductions pour ce projet
+  // Objet qui va obtenir toutes les traductions pour ce projet
+  // "title" du projet est utilisé comme clé de traduction pour faire le lien entre chaque objet du tableau data et traduction
   const translations = t(title, { returnObjects: true });
+  // "returnObjects" = Retourne l'objet de traduction entier au lieu d'une chaîne de traduction.
 
   return (
     // Fermeture au clique en dehors de la modale
@@ -24,14 +26,16 @@ function Modal({ title, imagesSrc, skills, githubLink, onClose }) {
         <h2>{title}</h2>
         <Slider imagesSrc={imagesSrc} />
         <div className="modal__container--description">
+          {/* reprend la description de l'objet translations */}
           {translations.description}
         </div>
         <h3>{t("Mission")}</h3>
         <div className="modal__container--description">
           <div>
+            {/* reprend la mission de l'objet translations */}
             <p>{translations.mission}</p>
             <ul className="modal__container--description--list">
-              {/* Prend la props de Modal missionResume en map pour créer la liste*/}
+              {/* Prend la props de Modal missionResume (récupéré dans l'objet translations) en map pour créer la liste*/}
               {translations.missionResume.map((missionResume, index) => (
                 <li key={index}>{missionResume}</li>
               ))}

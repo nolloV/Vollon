@@ -9,7 +9,7 @@ function LanguageSwitcher() {
   const changeLanguage = (lng) => {
     i18n.changeLanguage(lng);
   };
-
+  // la langue en cours sera stocké dans i18n
   return (
     <div className="switch_container">
       <div className="switch_container--block">
@@ -19,7 +19,7 @@ et pour le français si la langue actuelle n'est pas le français. */}
         {i18n.language !== "en" && (
           <button
             className="switch_container--button"
-            onClick={() => changeLanguage("en")}
+            onClick={() => changeLanguage("en")} //bouton pour appeler changeLanguage avec la langue en paramètre
           >
             EN
           </button>

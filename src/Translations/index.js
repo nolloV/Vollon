@@ -4,7 +4,9 @@ import enTranslations from "./en.json";
 import frTranslations from "./fr.json";
 
 i18n.use(initReactI18next).init({
+  // initialise i18next avec la configuration spécifiée
   resources: {
+    // clé de langue
     en: {
       translation: enTranslations,
     },
@@ -12,7 +14,7 @@ i18n.use(initReactI18next).init({
       translation: frTranslations,
     },
   },
-  lng: "fr",
+  lng: "fr", // Langue par défaut
   fallbackLng: "fr",
   interpolation: {
     escapeValue: false,

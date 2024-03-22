@@ -1,19 +1,16 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect } from "react";
 import "./darkmode.scss";
+import { useDarkMode } from "../../context"; // Importer le hook useDarkMode du contexte
 
+// Utiliser le hook useDarkMode pour obtenir l'état actuel du mode sombre et la fonction pour le changer
 const DarkModeToggle = () => {
-  const [darkMode, setDarkMode] = useState(false); // Etat local défini à false
+  const { darkMode, setDarkMode } = useDarkMode();
 
-  // Lire l'état du mode sombre du stockage local au montage
-  useEffect(() => {
-    const isDark = localStorage.getItem("darkMode") === "true";
-    setDarkMode(isDark);
-  }, []);
-
-  // Basculer le mode sombre, mettre à jour l'état et le stockage local avec "!"
+  // Basculer le mode sombre, mettre à jour l'état avec "!"
+  // Mise à jour l'état du contexte
+  // Cela permettra à tous les composants qui utilisent le même contexte d'être informés du changement
   const toggleDarkMode = () => {
     setDarkMode(!darkMode);
-    localStorage.setItem("darkMode", !darkMode);
   };
 
   // Appliquer le mode sombre au corps du document avec des classes CSS selon l'état de darkMode
@@ -25,11 +22,25 @@ const DarkModeToggle = () => {
       document.body.classList.add("light-theme");
       document.body.classList.remove("dark-theme");
     }
-  }, [darkMode]);
+  }, [darkMode]); // Réagir aux changements de l'état du mode sombre
 
   return (
     <div className="dark-mode-toggle">
-      <button onClick={toggleDarkMode}>{darkMode ? "🌙" : "🌞"}</button>
+      <button onClick={toggleDarkMode}>
+        {darkMode ? ( // Utiliser l'état du mode sombre pour déterminer quelle image afficher
+          <img
+            className="darkmode__logo"
+            src={process.env.PUBLIC_URL + "/images/Soleil.svg"}
+            alt="Logo"
+          />
+        ) : (
+          <img
+            className="darkmode__logo"
+            src={process.env.PUBLIC_URL + "/images/Lune.svg"}
+            alt="Logo"
+          />
+        )}
+      </button>
     </div>
   );
 };

@@ -2,31 +2,128 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 2rem;
+  padding: 0 2rem 0 2rem;
+  @media (max-width: 768px) {
+    padding: 0;
+  }
+  &--encart {
+    border-radius: 2rem;
+    width: 96%;
+    background: #ecedef;
+    body.dark-theme & {
+      background: #333; // Change la couleur de fond pour le mode nuit
+      color: #fff; // Change la couleur du texte pour le mode nuit
+    }
+  }
+
   &--section {
     display: flex;
-    gap: 1rem;
-    padding-bottom: 1rem;
+    padding: 2rem;
     @media (max-width: 768px) {
       flex-direction: column;
       align-items: center;
     }
   }
+  &--logo {
+    height: 3rem;
+    @media (max-width: 768px) {
+      height: 2rem;
+    }
+  }
+  &--dot {
+    display: inline-block;
+    transition: transform 0.3s ease;
+  }
+
+  @keyframes bounce {
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
   &--text {
     width: 50%;
     font-size: large;
+    font-weight: 600;
+
+    z-index: 2;
+    body.dark-theme & {
+      color: #fff; // Change la couleur du texte pour le mode nuit
+    }
     @media (max-width: 768px) {
       width: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  &--desc {
+    margin-top: O;
+  }
+  &--link {
+    position: relative;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: smaller;
+    padding: 2px 14px 2px 14px;
+    overflow: hidden;
+    body.dark-theme & {
+      color: #fff; // Change la couleur du texte pour le mode nuit
+    }
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: 1px none white;
+      border-radius: 2rem;
+      background-color: white;
+      transform: scaleX(0);
+      transform-origin: left;
+      transition: transform 0.3s ease-in-out;
+      body.dark-theme & {
+        background-color: black;
+      }
+    }
+
+    &:hover {
+      cursor: pointer;
+      z-index: 1;
+
+      &::before {
+        transform: scaleX(1);
+        z-index: -1;
+      }
+    }
+  }
+  &--name {
+    font-size: xxx-large;
+    margin: 0;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    &:hover .intro_container--dot {
+      transform: translateY(-10px);
+      animation: bounce 0.6s 3 forwards;
     }
   }
   &--title {
-    position: relative;
-    margin-bottom: 50px;
-    font-weight: 300;
-    color: #5b5963;
+    font-weight: 800;
+
     width: 100%;
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-style: italic;
     // Changement de couleur lors du passage en DarkMode
     // lorsque body a la classe dark-thème, alors ceci sera appliqué au selecteur parent &
     body.dark-theme & {
@@ -34,29 +131,31 @@
     }
   }
   &--subtitle {
-    font-size: 6rem;
-    position: absolute;
-    left: 0;
-    right: 0;
+    font-size: 2rem;
     text-align: center;
-    top: -40px;
-    z-index: 0;
-    opacity: 0.05;
     font-weight: 700;
-    // Changement de couleur et d'opcacité lors du passage en DarkMode
+    font-style: normal;
+    // Changement de couleur et d'opacité lors du passage en DarkMode
     body.dark-theme & {
       color: white;
       opacity: 0.2;
     }
     @media (max-width: 768px) {
-      font-size: 3.5rem;
+      font-size: 1.5rem;
       top: -5px;
+      padding: 0.5rem;
     }
   }
   &--sidepart {
-    width: 50%;
+    width: 57%;
     display: flex;
     object-fit: cover;
     align-items: center;
+  }
+}
+.react-parallax-bgimage {
+  z-index: 1;
+  @media (max-width: 768px) {
+    display: none;
   }
 }

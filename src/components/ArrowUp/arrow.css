@@ -1,0 +1,50 @@
+.arrowUp__container {
+  display: flex;
+  background: #ecedef;
+  justify-content: flex-end;
+  width: 100%;
+}
+body.dark-theme .arrowUp__container {
+  background: #333;
+}
+
+.scroll-to-top {
+  background: #ecedef;
+  color: #11324a;
+  border: 5px solid;
+  border-radius: 50%;
+  cursor: pointer;
+  width: 4rem;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: xx-large;
+  margin: 0 5.5rem 2rem 0;
+  transition: transform 0.3s ease;
+}
+.scroll-to-top:hover {
+  animation: bounce 1s ease-in-out;
+}
+body.dark-theme .scroll-to-top {
+  background: #333;
+  color: white;
+  border: 5px solid;
+}
+@media (max-width: 768px) {
+  .scroll-to-top {
+    margin: 0;
+  }
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  25%, 75% {
+    transform: translateY(-10px);
+  }
+  50% {
+    transform: translateY(0);
+  }
+}/*# sourceMappingURL=arrow.css.map */

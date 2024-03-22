@@ -21,14 +21,24 @@ function Skills() {
         <span className="intro_container--subtitle">{t("about")}</span>
       </h2>
       <ul className="skills__container--list">
-        {skills.map((skill, index) => (
-          <li key={index} className="skills__container--card">
-            <img
-              className="skills__container--logo"
-              src={process.env.PUBLIC_URL + skill.logo}
-              alt={skill.skill}
-            />
-            {skill.skill}
+        {skills.map((skill) => (
+          <li
+            key={skill.id}
+            className={`skills__container--card skills__container--card-${skill.id}`}
+          >
+            <div
+              className={`skills__container--logo skills__container--logo-${skill.id} skills__container--logo-${skill.id}`}
+            >
+              <div className="logo-background">
+                <div className="logo">
+                  <img
+                    src={process.env.PUBLIC_URL + skill.logo}
+                    alt={skill.skill}
+                  />
+                </div>
+              </div>
+            </div>
+            <span className="skills__container--subtitle">{skill.skill}</span>
           </li>
         ))}
       </ul>

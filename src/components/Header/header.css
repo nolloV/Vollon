@@ -1,5 +1,4 @@
 header {
-  background: #f5f5f5;
   padding: 1rem 0;
   position: fixed;
   width: 100%;
@@ -9,6 +8,7 @@ header {
   align-items: center;
   justify-content: center;
   height: 2.9rem;
+  background: white;
 }
 body.dark-theme header {
   background: #333;
@@ -19,27 +19,37 @@ header .header__container {
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  padding: 0 2rem;
+  padding: 0 5rem;
+}
+@media (max-width: 768px) {
+  header .header__container {
+    padding: 0 4rem;
+  }
+}
+header .header__container--logo {
+  height: 5rem;
 }
 header .header__container--name {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
+  padding: 12px 0 0 5rem;
 }
 header .header__container--name a {
   text-decoration: none;
-  color: #5b5963;
 }
 body.dark-theme header .header__container--name a {
   color: #fff;
 }
+header .header__container--section {
+  display: flex;
+  flex-direction: row;
+}
 header .header__container--titles {
   gap: 1rem;
   display: flex;
+  padding-right: 1rem;
 }
 header .header__container--titles a {
   text-decoration: none;
-  color: black;
+  font-weight: 700;
 }
 body.dark-theme header .header__container--titles a {
   color: #fff;
@@ -59,48 +69,5 @@ header .header__container--module {
     display: flex;
     align-items: center;
     flex-direction: column;
-  }
-}
-
-/*Loader*/
-.loader-container {
-  position: fixed;
-  background-color: rgb(234, 234, 234);
-  width: 100%;
-  height: 100%;
-  z-index: 10;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  animation: opacity 2s cubic-bezier(1, -0.16, 1, -0.48) forwards;
-}
-@keyframes opacity {
-  0% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-    z-index: -10;
-  }
-}
-.loader-container__loader {
-  border: 16px solid #f3f3f3;
-  border-top: 16px solid #5b5963;
-  border-radius: 50%;
-  width: 120px;
-  height: 120px;
-  animation: spin 1s ease-in-out infinite;
-}
-body.dark-theme .loader-container__loader {
-  border: 16px solid #555;
-  border-top: 16px solid #fff;
-}
-@keyframes spin {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
   }
 }/*# sourceMappingURL=header.css.map */

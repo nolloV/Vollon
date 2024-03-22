@@ -5,12 +5,14 @@ import { useTranslation } from "react-i18next";
 
 const FilterList = ({ handleFilter }) => {
   const { t } = useTranslation();
+
   const [filters, setFilters] = useState([]); // Tableau des filtres
   const [selectedFilter, setSelectedFilter] = useState("Tous"); // Choisi le filtre sélectionné
 
   useEffect(() => {
     // Créer un tableau avec toutes les catégories de tous les projets
     let categories = [];
+
     // Boucle chaque élément de data
     for (let project of filterData) {
       // Boucle project.categories et stock dans category

@@ -21,7 +21,7 @@ et pour le français si la langue actuelle n'est pas le français. */}
             className="switch_container--button"
             onClick={() => changeLanguage("en")} //bouton pour appeler changeLanguage avec la langue en paramètre
           >
-            EN
+            FR
           </button>
         )}
         {i18n.language !== "fr" && (
@@ -29,7 +29,7 @@ et pour le français si la langue actuelle n'est pas le français. */}
             className="switch_container--button"
             onClick={() => changeLanguage("fr")}
           >
-            FR
+            EN
           </button>
         )}
       </div>

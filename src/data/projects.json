@@ -1,6 +1,6 @@
 [
   {
-    "title": "Sophie Buel",
+    "title": "Sophie Bluel",
     "image": "/assets/Portfolio-Sophie-Buel-1.webp",
     "imagesSrc": [
       "/assets/Portfolio-Sophie-Buel-1.webp",
@@ -109,7 +109,11 @@
   {
     "title": "Booki",
     "image": "/assets/Portfolio-Booki.webp",
-    "imagesSrc": ["/assets/Portfolio-Booki.webp"],
+    "imagesSrc": [
+      "/assets/Portfolio-Booki.webp",
+      "/assets/Portfolio-Booki-2.webp",
+      "/assets/Portfolio-Booki-3.webp"
+    ],
     "hashtags": ["HTML", "CSS", "Figma"],
     "categories": ["HTML"],
     "skills": ["HTML", "CSS", "VSCode"],
@@ -142,7 +146,11 @@
   {
     "title": "OhMyFood",
     "image": "/assets/Portfolio-Ohmyfood.webp",
-    "imagesSrc": ["/assets/Portfolio-Ohmyfood.webp"],
+    "imagesSrc": [
+      "/assets/Portfolio-Ohmyfood.webp",
+      "/assets/Portfolio-Ohmyfood-2.webp",
+      "/assets/Portfolio-Ohmyfood-3.webp"
+    ],
     "hashtags": ["HTML", "CSS", "Animation"],
     "categories": ["HTML"],
     "skills": ["SASS", "HTML", "CSS", "Github", "VSCode"],

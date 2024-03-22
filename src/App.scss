@@ -5,11 +5,22 @@ ol {
   margin: 0;
   padding: 0;
   list-style-type: none;
-  font: 400 14px/1.8 "Poppins", sans-serif;
-  color: #5b5963;
+  font: 400 14px/1.8 "Montserrat", sans-serif;
+  color: #11324a;
   scroll-padding-top: 90px;
+  font-family: "Montserrat";
 }
 
 .hidden {
-  display: none;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+a {
+  color: #11324a;
 }

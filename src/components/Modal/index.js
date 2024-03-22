@@ -23,15 +23,15 @@ function Modal({ title, imagesSrc, skills, githubLink, onClose }) {
         <button className="modal__close" onClick={onClose}>
           &times;
         </button>
-        <h2>{title}</h2>
+        <h2 className="modal__container--title">{title}</h2>
         <Slider imagesSrc={imagesSrc} />
         <div className="modal__container--description">
           {/* reprend la description de l'objet translations */}
           {translations.description}
         </div>
-        <h3>{t("Mission")}</h3>
-        <div className="modal__container--description">
-          <div>
+        <h3 className="modal__container--subtitle">{t("Mission")}</h3>
+        <div className="modal__container--descriptions">
+          <div className="modal__container--part">
             {/* reprend la mission de l'objet translations */}
             <p>{translations.mission}</p>
             <ul className="modal__container--description--list">
@@ -41,37 +41,39 @@ function Modal({ title, imagesSrc, skills, githubLink, onClose }) {
               ))}
             </ul>
           </div>
-          <div className="modal__container--description--logo">
-            <ul className="modal__container--description--skills">
-              {/* Prend la props de Modal skills en map pour créer la liste*/}
-              {skills.map((skill, index) => {
-                // On cherche dans le tableau skillData un skill correspodant au skill actuel pour le stocker dans skillInfo
-                const skillInfo = skillData.find((s) => s.skill === skill);
-                return (
-                  <li key={index}>
-                    <img
-                      className="skillslist__container--logo"
-                      src={
-                        skillInfo
-                          ? process.env.PUBLIC_URL + skillInfo.logo
-                          : undefined
-                      }
-                      alt={skill}
-                    />
-                  </li>
-                );
-              })}
-            </ul>
+          <div className="modal__container--logolink">
+            <div className="modal__container--description--logo">
+              <ul className="modal__container--description--skills">
+                {/* Prend la props de Modal skills en map pour créer la liste*/}
+                {skills.map((skill, index) => {
+                  // On cherche dans le tableau skillData un skill correspodant au skill actuel pour le stocker dans skillInfo
+                  const skillInfo = skillData.find((s) => s.skill === skill);
+                  return (
+                    <li key={index}>
+                      <img
+                        className="skillslist__container--logo"
+                        src={
+                          skillInfo
+                            ? process.env.PUBLIC_URL + skillInfo.logo
+                            : undefined
+                        }
+                        alt={skill}
+                      />
+                    </li>
+                  );
+                })}
+              </ul>
+            </div>
+            <a
+              className="modal__container--link"
+              href={githubLink}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {t("Lien vers Github")}
+            </a>
           </div>
         </div>
-        <a
-          className="modal__container--link"
-          href={githubLink}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          {t("Lien vers Github")}
-        </a>
       </aside>
     </section>
   );

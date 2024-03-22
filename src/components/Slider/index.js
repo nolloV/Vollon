@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import "./slider.scss";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowRight, faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 
 function Slider({ imagesSrc }) {
   //Etat de l'index pour le slider
@@ -25,7 +27,7 @@ function Slider({ imagesSrc }) {
           className="slider__container--arrow slider__container--arrow--left"
           onClick={prevImage}
         >
-          &lt;
+          <FontAwesomeIcon icon={faArrowLeft} />
         </button>
 
         <div className="slider__container--track">
@@ -41,7 +43,7 @@ function Slider({ imagesSrc }) {
           className="slider__container--arrow slider__container--arrow--right"
           onClick={nextImage}
         >
-          &gt;
+          <FontAwesomeIcon icon={faArrowRight} />
         </button>
       </div>
     </div>

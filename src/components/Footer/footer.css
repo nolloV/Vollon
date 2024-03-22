@@ -1,9 +1,11 @@
 footer {
-  background-color: #333;
+  background-color: #11324a;
   color: white;
   display: flex;
+  align-items: flex-end;
+  height: 5rem;
   justify-content: center;
-  align-items: center;
+  position: relative;
 }
 body.dark-theme footer {
   background: black;
@@ -12,13 +14,18 @@ body.dark-theme footer {
 .footer__container {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   align-items: center;
+  width: 80%;
+  padding: 0 20px;
+  z-index: 1;
 }
 .footer__container--list {
   display: flex;
   gap: 1rem;
   font-size: 2rem;
   color: white;
+  margin-left: auto;
 }
 body.dark-theme .footer__container--list {
   color: #fff;
@@ -29,8 +36,22 @@ body.dark-theme .footer__container--list {
 body.dark-theme .footer__container--icon {
   color: #fff;
 }
+.footer__container--logo {
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 9rem;
+  z-index: 0;
+}
+@media (max-width: 768px) {
+  .footer__container--logo {
+    height: 7rem;
+  }
+}
 .footer__container--copy {
-  margin: 0 0 1rem 0;
+  margin: auto;
+  text-align: center;
 }
 body.dark-theme .footer__container--copy {
   color: #fff;

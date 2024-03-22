@@ -5,6 +5,7 @@ import Intro from "../../components/Intro";
 import Skills from "../../components/Skills";
 import Projects from "../../components/Projects";
 import { useTranslation } from "react-i18next";
+import ArrowUp from "../../components/ArrowUp";
 
 function Home() {
   const { t } = useTranslation();
@@ -18,11 +19,11 @@ function Home() {
           className="projects__container--title intro_container--title"
         >
           {t("realisation")}
-          <span className="intro_container--subtitle">Portfolio</span>
         </h2>
         <Projects />
       </section>
       <Form />
+      <ArrowUp />
     </main>
   );
 }

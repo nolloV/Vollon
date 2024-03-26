@@ -1,5 +1,5 @@
 import "./form.scss";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import { useForm, ValidationError } from "@formspree/react";
 
@@ -7,6 +7,26 @@ function Form() {
   const { t } = useTranslation();
   const [state, handleSubmit] = useForm("xnqezrwo"); // Backend Formspree pour la gestion du formulaire
   const [bounce, setBounce] = useState(false); // Effet de rebond au clique Submit
+  const [name, setName] = useState(""); // état pour le champ Nom
+  const [email, setEmail] = useState(""); // état pour le champ Email
+  const [message, setMessage] = useState(""); // état pour le champ Message
+
+  const resetForm = () => {
+    setName("");
+    setEmail("");
+    setMessage("");
+  };
+
+  useEffect(() => {
+    if (state.succeeded) {
+      resetForm();
+    }
+  }, [state.succeeded]);
+
+  const onSubmit = async (e) => {
+    e.preventDefault();
+    await handleSubmit(e);
+  };
 
   return (
     <section className="form">
@@ -15,7 +35,7 @@ function Form() {
         <span className="intro_container--subtitle"> {t("contact")}</span>
       </h2>
       <p className="form__subtitle">{t("project")}</p>
-      <form onSubmit={handleSubmit} className="form__container">
+      <form onSubmit={onSubmit} className="form__container">
         <div className="form__container--name">
           <label className="hidden" htmlFor="name">
             Nom
@@ -27,6 +47,8 @@ function Form() {
             id="name"
             placeholder={t("name")}
             required
+            value={name}
+            onChange={(e) => setName(e.target.value)}
           />
           <ValidationError prefix="Nom" field="name" errors={state.errors} />
           <label className="hidden" htmlFor="email">
@@ -39,6 +61,8 @@ function Form() {
             id="email"
             placeholder={t("address")}
             required
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
           />
           <ValidationError prefix="Email" field="email" errors={state.errors} />
         </div>
@@ -53,6 +77,8 @@ function Form() {
           rows="10"
           placeholder={t("message")}
           required
+          value={message}
+          onChange={(e) => setMessage(e.target.value)}
         ></textarea>
         <ValidationError
           prefix="Message"

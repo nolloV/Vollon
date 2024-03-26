@@ -58,6 +58,7 @@ function Modal({ title, imagesSrc, skills, githubLink, onClose }) {
                             : undefined
                         }
                         alt={skill}
+                        title={skill}
                       />
                     </li>
                   );

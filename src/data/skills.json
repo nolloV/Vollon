@@ -44,6 +44,11 @@
       "id": 9,
       "skill": "VSCode",
       "logo": "/images/vscode.svg"
+    },
+    {
+      "id": 10,
+      "skill": "Figma",
+      "logo": "/images/Figma.svg"
     }
   ]
 }

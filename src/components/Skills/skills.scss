@@ -75,6 +75,9 @@
     &.skills__container--logo-9:hover::before {
       background-color: #3c99d4;
     }
+    &.skills__container--logo-10:hover::before {
+      background-color: #a259ff;
+    }
     &:hover::before {
       transform: scale(1.2);
     }

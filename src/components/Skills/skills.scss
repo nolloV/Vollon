@@ -145,6 +145,11 @@
         animation-delay: 3.6s;
       }
     }
+    &:nth-child(10) {
+      .skills__container--logo {
+        animation-delay: 3.8s;
+      }
+    }
   }
 
   body.dark-theme & {

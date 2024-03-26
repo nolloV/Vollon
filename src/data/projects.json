@@ -93,7 +93,7 @@
       "/assets/Portfolio-Nina-Carducci-3.webp"
     ],
     "hashtags": ["SEO", "Métas", "Green Code"],
-    "categories": ["Debbug", "SEO"],
+    "categories": ["Debug", "SEO"],
     "skills": ["CSS", "HTML", "JavaScript", "Github", "VSCode"],
     "description": "Nina Carducci, photographe, a sollicité mes services de développeur freelance pour optimiser le référencement de son site ninacarducci.github.io.",
     "mission": "En tant que développeur freelance, ma mission consiste à optimiser le site web de Nina Carducci, une photographe, pour améliorer son référencement et ses performances en ligne. Pour atteindre cet objectif, je vais travailler sur plusieurs aspects du site, notamment en réduisant la taille des images pour accélérer le chargement, en restructurant le code pour garantir une accessibilité optimale, et en mettant en place un référencement local grâce à Schema.org. Je vais également ajouter des balises métas pour les réseaux sociaux et effectuer des ajustements liés à l'accessibilité. Enfin, je vais documenter toutes ces actions dans un rapport d'optimisation détaillé, qui inclura des captures d'écran des audits Lighthouse, Wave, et Rich Snippet",
@@ -169,7 +169,7 @@
     "title": "724 Events",
     "image": "/assets/Portfolio-724.webp",
     "imagesSrc": ["/assets/Portfolio-724.webp", "/assets/Portfolio-724-2.webp"],
-    "hashtags": ["JavaScript", "Debbug", "DevTools", "React"],
+    "hashtags": ["JavaScript", "Debug", "DevTools", "React"],
     "categories": ["Debug", "React", "JavaScript"],
     "skills": ["HTML", "CSS", "JavaScript", "React", "Github", "VSCode"],
     "description": "L'agence événementielle 724events, spécialisée dans l'organisation d'événements, recherche mes compétences en tant que développeur front-end freelance pour résoudre des problèmes sur son site vitrine en cours de refonte. Avec une orientation vers les événements d'envergure, l'agence vise à présenter une image moderne et dynamique à travers son site one-page. Ayant déjà entamé le processus d'intégration, l'agence a dû faire face à des obstacles imprévus avec le départ du premier développeur freelance.Afin de maintenir l'élan du projet, Jean-Baptiste, le directeur Marketing de l'agence, m'a contacté pour débugger le site et finaliser le cahier de recette qui garantira le bon fonctionnement de chaque fonctionnalité.",

@@ -10,6 +10,8 @@
     flex-direction: row;
     gap: 3rem;
     margin: 3rem 0 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
     @media (max-width: 768px) {
       flex-wrap: wrap;
       justify-content: center;
@@ -77,6 +79,15 @@
     }
     &.skills__container--logo-10:hover::before {
       background-color: #a259ff;
+    }
+    &.skills__container--logo-11:hover::before {
+      background-color: #1565c0;
+    }
+    &.skills__container--logo-12:hover::before {
+      background-color: #dd2c00;
+    }
+    &.skills__container--logo-13:hover::before {
+      background-color: #00796B;
     }
     &:hover::before {
       transform: scale(1.2);
@@ -148,6 +159,21 @@
     &:nth-child(10) {
       .skills__container--logo {
         animation-delay: 3.8s;
+      }
+    }
+    &:nth-child(11) {
+      .skills__container--logo {
+        animation-delay: 4.0s;
+      }
+    }
+    &:nth-child(12) {
+      .skills__container--logo {
+        animation-delay: 4.2s;
+      }
+    }
+    &:nth-child(13) {
+      .skills__container--logo {
+        animation-delay: 4.4s;
       }
     }
   }

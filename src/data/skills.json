@@ -49,6 +49,22 @@
       "id": 10,
       "skill": "Figma",
       "logo": "/images/Figma.svg"
+    },
+    {
+      "id": 11,
+      "skill": "Java",
+      "logo": "/images/java.svg"
+    },
+    {
+      "id": 12,
+      "skill": "Angular",
+      "logo": "/images/angular.svg"
+    }
+    ,
+    {
+      "id": 13,
+      "skill": "MySQL",
+      "logo": "/images/mysql.svg"
     }
   ]
 }

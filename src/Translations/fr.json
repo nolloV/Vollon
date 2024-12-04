@@ -2,9 +2,9 @@
   "developer": "Développeur Web",
   "presentation": "Présentation",
   "whoAmI": "Qui suis-je ?",
-  "intro_paragraph1": "Je suis développeur front-end et je donne vie à vos interfaces aussi intuitives que fun avec un code simple et lisible.",
+  "intro_paragraph1": "Je suis développeur full stack et je crée des interfaces utilisateur intuitives et efficaces avec un code simple et lisible.",
   "intro_paragraph2": "DÉCOUVREZ MON TRAVAIL",
-  "intro_paragraph3": "Maîtrisant HTML5, CSS3, JavaScript, React et Redux, j'ai acquis ces compétences en suivant une formation chez OpenClassrooms.",
+  "intro_paragraph3": "Maîtrisant HTML5, CSS3, JavaScript, React, Redux, Java et Angular, je suis prêt à relever de nouveaux défis.",
   "skills": "Expertise",
   "about": "Une réponse à vos besoin les plus complexes !",
   "realisation": "Portfolio",
@@ -101,6 +101,70 @@
       "Déboggage avec Chrome DevTools",
       "Tests unitaires ",
       "Rédaction de cahier de recette"
+    ]
+  },
+  "Telesport": {
+    "description": "La chaîne de télévision TéléSport souhaite créer une nouvelle application web interactive pour préparer les prochains Jeux Olympiques. Cette application permettra aux utilisateurs de visualiser les informations des précédents Jeux olympiques, comme le nombre de médailles par pays. Vous êtes chargé de développer le front-end du dashboard en utilisant Angular, en suivant les bonnes pratiques telles que l'utilisation de services pour les appels HTTP, RxJS et les observables, et en typant le code de manière stricte.",
+    "mission": "Développer le front-end du dashboard pour l'application web interactive de TéléSport, en suivant les maquettes fournies par l'UX designer et en respectant les spécifications du cahier des charges. Le code doit être bien documenté avec un README expliquant comment lancer l'application, et l'application doit être compatible avec les appareils mobiles et les ordinateurs.",
+    "missionResume": [
+      "Développement du front-end avec Angular",
+      "Utilisation de services pour les appels HTTP",
+      "Intégration de RxJS et des observables",
+      "Typage strict du code",
+      "Compatibilité mobile et ordinateur"
+    ]
+  },
+  "Chatop": {
+    "description": "ChâTop, une société de location immobilière dans une zone touristique, souhaite développer un portail en ligne pour permettre aux locataires potentiels de contacter les propriétaires des différentes propriétés qu'ils souhaitent louer. Vous êtes chargé de développer le back-end de cette application en utilisant les spécifications techniques fournies.",
+    "mission": "Développer le back-end du portail de mise en relation entre les futurs locataires et les propriétaires pour de la location saisonnière. L'application doit permettre aux utilisateurs de s'authentifier pour accéder aux annonces de locations. L'API doit être documentée avec Swagger et testée avec une collection Postman.",
+    "missionResume": [
+      "Développement du back-end",
+      "Implémentation de l'authentification des utilisateurs",
+      "Documentation de l'API avec Swagger",
+      "Tests de l'API avec Postman"
+    ]
+  },
+  "NumDev": {
+    "description": "NumDev, une agence spécialisée dans la création d'applications de gestion d’entreprise pour les petites entreprises locales, a besoin de finaliser une application de réservation pour Savasana, un studio de yoga. Vous êtes chargé de réaliser le testing de l'application, incluant les tests front-end, back-end et end-to-end.",
+    "mission": "Réaliser le testing de l'application de réservation pour Savasana, incluant l’écriture et l’exécution des tests front-end, back-end et end-to-end. Les tests doivent couvrir au moins 80 % du code, avec au moins 30 % de tests d’intégration. Documenter l'API avec Swagger et rédiger un README pour expliquer comment lancer l'application.",
+    "missionResume": [
+      "Réalisation des tests front-end, back-end et end-to-end",
+      "Couverture de tests d'au moins 80 % du code",
+      "Au moins 30 % de tests d’intégration",
+      "Documentation de l'API avec Swagger"
+    ]
+  },
+  "Monde des Devs": {
+    "description": "ORION, une entreprise spécialisée dans le développement logiciel, souhaite créer le prochain réseau social dédié aux développeurs : MDD (Monde de Dév). Le but de MDD est d’aider les développeurs à trouver un emploi en facilitant les connexions et la collaboration entre pairs ayant des intérêts communs. Vous êtes chargé de réaliser le MVP (Minimum Viable Product) de cette application.",
+    "mission": "Développer le MVP de l'application MDD, permettant aux utilisateurs de s’abonner à des sujets liés à la programmation, d'afficher un fil d’actualité chronologique, d'écrire des articles et de poster des commentaires. Vous devez prendre des décisions concernant les librairies, frameworks, design patterns et outils à utiliser, développer le front-end et le back-end, et mettre en place une base de données adaptée.",
+    "missionResume": [
+      "Prise de décisions techniques (librairies, frameworks, design patterns, outils)",
+      "Développement du front-end avec Angular",
+      "Développement du back-end avec Java",
+      "Mise en place d'une base de données MySQL",
+      "Intégration des maquettes fournies par l'UX designer"
+    ]
+  },
+  "BobApp": {
+    "description": "BobApp est une application créée par Bob, il a besoin d'aide pour gérer l'augmentation du nombre d'utilisateurs et les nombreux bugs signalés. Vous êtes chargé de mettre en place des workflows de Continuous Integration/Continuous Delivery (CI/CD) pour automatiser les tests, la vérification de la qualité du code, la génération des rapports de couverture et le déploiement des conteneurs Docker.",
+    "mission": "Mettre en place des workflows CI/CD complets pour BobApp, incluant la validation des tests sur les pull requests, l'exécution des tests, la vérification de la qualité du code, la génération des rapports de couverture, et le déploiement des conteneurs sur Docker Hub. Utiliser GitHub Actions pour automatiser ces processus et intégrer SonarQube pour l'analyse de la qualité du code.",
+    "missionResume": [
+      "Mise en place de workflows CI/CD avec GitHub Actions",
+      "Validation des tests sur les pull requests",
+      "Exécution des tests et vérification de la qualité du code",
+      "Génération des rapports de couverture",
+      "Déploiement des conteneurs sur Docker Hub",
+      "Intégration de SonarQube pour l'analyse de la qualité du code"
+    ]
+  },
+  "Your Car Your Way": {
+    "description": "Your Car Your Way, une entreprise de location de voitures, souhaite développer une nouvelle application web pour permettre à tous ses clients de gérer la procédure de location de voitures. Vous êtes chargé de mettre à jour le document 'Business Requirements', de réaliser un 'Architecture Definition Document' et de compléter un 'Compliance Assessment'.",
+    "mission": "Mettre à jour le document 'Business Requirements' en ajoutant les fonctionnalités manquantes, réaliser un 'Architecture Definition Document' pour s'assurer de la faisabilité du projet, et compléter un 'Compliance Assessment' pour évaluer la conformité du projet. Développer une preuve de concept (PoC) pour la fonctionnalité de chat en ligne avec le service client.",
+    "missionResume": [
+      "Mise à jour du document 'Business Requirements'",
+      "Réalisation d'un 'Architecture Definition Document'",
+      "Complétion d'un 'Compliance Assessment'",
+      "Développement d'une preuve de concept (PoC) pour le chat en ligne"
     ]
   }
 }

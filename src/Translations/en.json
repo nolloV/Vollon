@@ -2,9 +2,9 @@
   "developer": "Web developer",
   "presentation": "Presentation",
   "whoAmI": "Who I am ?",
-  "intro_paragraph1": "I am a front-end developer, bringing your interfaces to life with code that is both simple and readable, as intuitive as it is enjoyable.",
+  "intro_paragraph1": "I am a full stack developer, creating user interfaces that are intuitive and efficient with code that is both simple and readable.",
   "intro_paragraph2": "DISCOVER MY WORK",
-  "intro_paragraph3": "Mastering HTML5, CSS3, JavaScript, React, and Redux, I acquired these skills through training at OpenClassrooms.",
+  "intro_paragraph3": "Mastering HTML5, CSS3, JavaScript, React, Redux, Java, and Angular, I am ready to take on new challenges.",
   "skills": "Skills",
   "about": "A solution to your most complex needs!",
   "realisation": "Portfolio",
@@ -102,5 +102,69 @@
       "Unit testing",
       "Writing recipe book"
     ]
-  }
+  },
+  "Telesport": {
+  "description": "The television channel TéléSport wants to create a new interactive web application to prepare for the upcoming Olympic Games. This application will allow users to view information from previous Olympic Games, such as the number of medals per country. You are responsible for developing the front-end of the dashboard using Angular, following best practices such as using services for HTTP calls, RxJS and observables, and strictly typing the code.",
+  "mission": "Develop the front-end of the dashboard for TéléSport's interactive web application, following the mockups provided by the UX designer and adhering to the specifications in the requirements document. The code must be well-documented with a README explaining how to launch the application, and the application must be compatible with both mobile and desktop devices.",
+  "missionResume": [
+    "Front-end development with Angular",
+    "Using services for HTTP calls",
+    "Integration of RxJS and observables",
+    "Strict typing of the code",
+    "Mobile and desktop compatibility"
+  ]
+},
+"Chatop": {
+  "description": "ChâTop, a real estate rental company in a tourist area, wants to develop an online portal to allow potential tenants to contact the owners of the various properties they wish to rent. You are responsible for developing the back-end of this application using the provided technical specifications.",
+  "mission": "Develop the back-end of the portal to connect future tenants and owners for seasonal rentals. The application must allow users to authenticate to access rental listings. The API must be documented with Swagger and tested with a Postman collection.",
+  "missionResume": [
+    "Back-end development",
+    "Implementation of user authentication",
+    "API documentation with Swagger",
+    "API testing with Postman"
+  ]
+},
+"NumDev": {
+  "description": "NumDev, an agency specializing in the creation of business management applications for small local businesses, needs to finalize a booking application for Savasana, a yoga studio. You are responsible for performing the testing of the application, including front-end, back-end, and end-to-end tests.",
+  "mission": "Perform the testing of the booking application for Savasana, including writing and executing front-end, back-end, and end-to-end tests. The tests must cover at least 80% of the code, with at least 30% integration tests. Document the API with Swagger and write a README to explain how to launch the application.",
+  "missionResume": [
+    "Perform front-end, back-end, and end-to-end tests",
+    "Test coverage of at least 80% of the code",
+    "At least 30% integration tests",
+    "API documentation with Swagger"
+  ]
+},
+"Monde des Devs": {
+  "description": "ORION, a company specializing in software development, wants to create the next social network dedicated to developers: MDD (Monde de Dév). The goal of MDD is to help developers find jobs by facilitating connections and collaboration between peers with common interests. You are responsible for developing the MVP (Minimum Viable Product) of this application.",
+  "mission": "Develop the MVP of the MDD application, allowing users to subscribe to programming-related topics, display a chronological news feed, write articles, and post comments. You need to make decisions regarding libraries, frameworks, design patterns, and tools to use, develop the front-end and back-end, and set up an appropriate database.",
+  "missionResume": [
+    "Making technical decisions (libraries, frameworks, design patterns, tools)",
+    "Front-end development with Angular",
+    "Back-end development with Java",
+    "Setting up a MySQL database",
+    "Integrating the mockups provided by the UX designer"
+  ]
+},
+"BobApp": {
+  "description": "BobApp is an application created by Bob, he needs help managing the increasing number of users and numerous reported bugs. You are responsible for setting up Continuous Integration/Continuous Delivery (CI/CD) workflows to automate tests, code quality checks, coverage report generation, and Docker container deployment.",
+  "mission": "Set up complete CI/CD workflows for BobApp, including test validation on pull requests, running tests, checking code quality, generating coverage reports, and deploying containers to Docker Hub. Use GitHub Actions to automate these processes and integrate SonarQube for code quality analysis.",
+  "missionResume": [
+    "Setting up CI/CD workflows with GitHub Actions",
+    "Validating tests on pull requests",
+    "Running tests and checking code quality",
+    "Generating coverage reports",
+    "Deploying containers to Docker Hub",
+    "Integrating SonarQube for code quality analysis"
+  ]
+},
+"Your Car Your Way": {
+  "description": "Your Car Your Way, a car rental company, wants to develop a new web application to allow all its customers to manage the car rental process. You are responsible for updating the 'Business Requirements' document, creating an 'Architecture Definition Document', and completing a 'Compliance Assessment'.",
+  "mission": "Update the 'Business Requirements' document by adding missing features, create an 'Architecture Definition Document' to ensure the feasibility of the project, and complete a 'Compliance Assessment' to evaluate the project's compliance. Develop a proof of concept (PoC) for the online chat functionality with customer service.",
+  "missionResume": [
+    "Updating the 'Business Requirements' document",
+    "Creating an 'Architecture Definition Document'",
+    "Completing a 'Compliance Assessment'",
+    "Developing a proof of concept (PoC) for the online chat"
+  ]
+}
 }

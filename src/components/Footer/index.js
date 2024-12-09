@@ -19,7 +19,7 @@ function Footer() {
         <ul className="footer__container--list">
           <li>
             <a
-              href="https://www.linkedin.com"
+              href="https://www.linkedin.com/in/vollon-hu-622248254/"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Visitez mon profil LinkedIn"

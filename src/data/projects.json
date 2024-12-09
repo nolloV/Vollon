@@ -253,8 +253,8 @@
   },
   {
     "title": "BobApp",
-    "image": "/assets/Portfolio-bobapp.webp",
-    "imagesSrc": ["/assets/Portfolio-bobapp.webp"],
+    "image": "/assets/Portfolio-Bobapp.webp",
+    "imagesSrc": ["/assets/Portfolio-Bobapp.webp"],
     "hashtags": ["Java", "Angular", "MySQL", "Github"],
     "categories": ["Angular", "Java"],
     "skills": ["Java", "Angular", "Github", "VSCode"],
@@ -286,5 +286,23 @@
       "Développement d'une preuve de concept (PoC) pour le chat en ligne"
     ],
     "githubLink": "https://github.com/nolloV/P13_PoC"
+  },
+  {
+    "title": "Portfolio",
+    "image": "/assets/Portfolio-perso.webp",
+    "imagesSrc": ["/assets/Portfolio-perso.webp", "/assets/Portfolio-perso-1.webp", "/assets/Portfolio-perso-2.webp", "/assets/Portfolio-perso-3.webp"],
+    "hashtags": ["React", "HTML", "SASS", "Github"],
+    "categories": ["React", "JavaScript", "HTML", "SEO"],
+    "skills": ["JavaScript", "React", "Github", "VSCode", "SASS"],
+    "description": "Découvrez mon portfolio personnel, développé avec React, qui met en avant mes compétences en développement web. Ce projet est le plus abouti de ma carrière et reflète mon expertise en JavaScript, React, HTML, SASS et SEO. Explorez mes réalisations et projets pour en savoir plus sur mon parcours professionnel.",
+    "mission": "Créer un portfolio attrayant et interactif pour présenter mes compétences et projets en développement web. Utiliser React pour construire une interface utilisateur moderne et réactive, et intégrer des techniques de SEO pour améliorer la visibilité en ligne. Assurer une expérience utilisateur fluide et intuitive sur tous les appareils.",
+    "missionResume": [
+      "Développement de l'interface utilisateur avec React",
+      "Intégration de SASS pour des styles modulaires et maintenables",
+      "Optimisation SEO pour une meilleure visibilité en ligne",
+      "Mise en place d'un design responsive pour une compatibilité mobile",
+      "Utilisation de GitHub pour le contrôle de version et le déploiement"
+    ],
+    "githubLink": "https://github.com/nolloV/Vollon"
   }
 ]

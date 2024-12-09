@@ -166,5 +166,16 @@
     "Completing a 'Compliance Assessment'",
     "Developing a proof of concept (PoC) for the online chat"
   ]
+},
+"Portfolio": {
+  "description": "Discover my personal portfolio, developed with React, showcasing my web development skills. This project is the most accomplished of my career and reflects my expertise in JavaScript, React, HTML, SASS, and SEO. Explore my achievements and projects to learn more about my professional journey.",
+  "mission": "Create an attractive and interactive portfolio to showcase my web development skills and projects. Use React to build a modern and responsive user interface, and integrate SEO techniques to improve online visibility. Ensure a smooth and intuitive user experience across all devices.",
+  "missionResume": [
+    "Development of the user interface with React",
+    "Integration of SASS for modular and maintainable styles",
+    "SEO optimization for better online visibility",
+    "Implementation of a responsive design for mobile compatibility",
+    "Use of GitHub for version control and deployment"
+  ]
 }
 }

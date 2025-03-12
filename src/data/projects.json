@@ -51,7 +51,8 @@
       "Développer une interface web en utilisant Sass.",
       "Initialiser une application avec Create React App."
     ],
-    "githubLink": "https://github.com/nolloV/Kasa"
+    "githubLink": "https://github.com/nolloV/Kasa",
+    "htmlLink": "https://kasa.vollonhu.com"
   },
   {
     "title": "ArgentBank",
@@ -82,7 +83,8 @@
       "Développer une interface web en utilisant Sass.",
       "Initialiser une application avec Create React App."
     ],
-    "githubLink": "https://github.com/nolloV/ArgentBank.git"
+    "githubLink": "https://github.com/nolloV/ArgentBank.git",
+    "htmlLink": "https://argentbank.vollonhu.com"
   },
   {
     "title": "Nina Carducci",
@@ -105,7 +107,8 @@
       "Swagger Documentation",
       "Green Code"
     ],
-    "githubLink": "https://github.com/nolloV/Nina_Carducci.git"
+    "githubLink": "https://github.com/nolloV/Nina_Carducci.git",
+    "htmlLink": "https://ninacarducci.vollonhu.com"
   },
   {
     "title": "Booki",
@@ -125,7 +128,7 @@
       "Installer un environnement de développement front-end.",
       "Intégrer du contenu conformément à une maquette avec HTML et CSS."
     ],
-    "githubLink": "https://github.com/nolloV/Sophie_Bluel.git"
+    "htmlLink": "https://booki.vollonhu.com"
   },
   {
     "title": "Print It",
@@ -142,7 +145,8 @@
       "Modernisation du Site",
       "Création d'un Carrousel"
     ],
-    "githubLink": "https://github.com/nolloV/Printit.git"
+    "githubLink": "https://github.com/nolloV/Printit.git",
+    "htmlLink": "https://Printit.vollonhu.com"
   },
   {
     "title": "OhMyFood",
@@ -163,7 +167,8 @@
       "Utilisation de SASS.",
       "Versionnage du projet avec Git et Github."
     ],
-    "githubLink": "https://github.com/nolloV/ohmyfood.git"
+    "githubLink": "https://github.com/nolloV/ohmyfood.git",
+    "htmlLink": "https://ohmyfood.vollonhu.com"
   },
   {
     "title": "724 Events",
@@ -179,7 +184,8 @@
       "Tests unitaires ",
       "Rédaction de cahier de recette"
     ],
-    "githubLink": "https://github.com/nolloV/724events.git"
+    "githubLink": "https://github.com/nolloV/724events.git",
+    "htmlLink": "https://724.vollonhu.com"
   },
   {
     "title": "Telesport",
@@ -197,7 +203,8 @@
       "Typage strict du code",
       "Compatibilité mobile et ordinateur"
     ],
-    "githubLink": "https://github.com/nolloV/Telesport.git"
+    "githubLink": "https://github.com/nolloV/Telesport.git",
+    "htmlLink": "https://Telesport.vollonhu.com"
   },
   {
     "title": "Chatop",
@@ -303,6 +310,7 @@
       "Mise en place d'un design responsive pour une compatibilité mobile",
       "Utilisation de GitHub pour le contrôle de version et le déploiement"
     ],
-    "githubLink": "https://github.com/nolloV/Vollon"
+    "githubLink": "https://github.com/nolloV/Vollon",
+    "htmlLink": "https://vollonhu.com"
   }
 ]

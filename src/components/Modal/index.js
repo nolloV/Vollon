@@ -4,7 +4,7 @@ import Slider from "../Slider";
 import skillsData from "../../data/skills.json";
 import { useTranslation } from "react-i18next";
 
-function Modal({ title, imagesSrc, skills, githubLink, onClose }) {
+function Modal({ title, imagesSrc, skills, githubLink, htmlLink, onClose }) {
   const { t } = useTranslation();
   // Assigner directement les données importées à skillData
   const skillData = skillsData.skills;
@@ -65,14 +65,26 @@ function Modal({ title, imagesSrc, skills, githubLink, onClose }) {
                 })}
               </ul>
             </div>
-            <a
-              className="modal__container--link"
-              href={githubLink}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              {t("Lien vers Github")}
-            </a>
+            {githubLink && (
+              <a
+                className="modal__container--link"
+                href={githubLink}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {t("Lien vers Github")}
+              </a>
+            )}
+            {htmlLink && (
+              <a
+                className="modal__container--link"
+                href={htmlLink}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {t("Lien vers la page")}
+              </a>
+            )}
           </div>
         </div>
       </aside>
